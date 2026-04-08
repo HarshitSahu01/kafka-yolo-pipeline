@@ -1,0 +1,4 @@
+confluent-kafka
+ultralytics
+opencv-python-headless
+numpy

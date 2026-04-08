@@ -1,0 +1,12 @@
+[ERROR] Video file not found: race_car.mp4
+[INFO] Connecting to RTSP: rtsp://localhost:8554/live
+[INFO] Shutting down ingestion…
+[INFO] Done — 2436 frames sent.
+[INFO] Connecting to RTSP: rtsp://localhost:8554/live
+[INFO] Stream opened — reading frames.
+[INFO] Shutting down ingestion…
+[INFO] Done — 126 frames sent.
+[INFO] Connecting to RTSP: rtsp://localhost:8554/live
+[INFO] Stream opened — reading frames.
+[INFO] Shutting down ingestion…
+[INFO] Done — 490 frames sent.

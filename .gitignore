@@ -1,1 +1,11 @@
 .venv
+__pycache__/
+.pytest_cache/
+*.db
+*.pt
+*.mp4
+*.avi
+*.zip
+.env
+artifacts/logs/
+detections.db*
