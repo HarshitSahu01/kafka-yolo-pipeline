@@ -1,0 +1,197 @@
+[ERROR] Video file not found: race_car.mp4
+[INFO] Connecting to RTSP: rtsp://localhost:8554/live
+[INFO] Stream opened — reading frames.
+[INFO] Shutting down ingestion…
+[INFO] Done — 430 frames sent.
+[INFO] Connecting to RTSP: rtsp://localhost:8554/live
+[INFO] Stream opened — reading frames.
+[WARNING] Frame read failed — reconnecting.
+[WARNING] Stream unavailable — retrying in 2 s.
+[WARNING] Stream unavailable — retrying in 2 s.
+[WARNING] Stream unavailable — retrying in 2 s.
+[WARNING] Stream unavailable — retrying in 2 s.
+[WARNING] Stream unavailable — retrying in 2 s.
+[WARNING] Stream unavailable — retrying in 2 s.
+[WARNING] Stream unavailable — retrying in 2 s.
+[WARNING] Stream unavailable — retrying in 2 s.
+[WARNING] Stream unavailable — retrying in 2 s.
+[WARNING] Stream unavailable — retrying in 2 s.
+[WARNING] Stream unavailable — retrying in 2 s.
+[WARNING] Stream unavailable — retrying in 2 s.
+[WARNING] Stream unavailable — retrying in 2 s.
+[WARNING] Stream unavailable — retrying in 2 s.
+[WARNING] Stream unavailable — retrying in 2 s.
+[WARNING] Stream unavailable — retrying in 2 s.
+[WARNING] Stream unavailable — retrying in 2 s.
+[WARNING] Stream unavailable — retrying in 2 s.
+[WARNING] Stream unavailable — retrying in 2 s.
+[WARNING] Stream unavailable — retrying in 2 s.
+[WARNING] Stream unavailable — retrying in 2 s.
+[WARNING] Stream unavailable — retrying in 2 s.
+[WARNING] Stream unavailable — retrying in 2 s.
+[WARNING] Stream unavailable — retrying in 2 s.
+[WARNING] Stream unavailable — retrying in 2 s.
+[WARNING] Stream unavailable — retrying in 2 s.
+[WARNING] Stream unavailable — retrying in 2 s.
+[WARNING] Stream unavailable — retrying in 2 s.
+[WARNING] Stream unavailable — retrying in 2 s.
+[WARNING] Stream unavailable — retrying in 2 s.
+[WARNING] Stream unavailable — retrying in 2 s.
+[WARNING] Stream unavailable — retrying in 2 s.
+[WARNING] Stream unavailable — retrying in 2 s.
+[WARNING] Stream unavailable — retrying in 2 s.
+[WARNING] Stream unavailable — retrying in 2 s.
+[WARNING] Stream unavailable — retrying in 2 s.
+[WARNING] Stream unavailable — retrying in 2 s.
+[WARNING] Stream unavailable — retrying in 2 s.
+[WARNING] Stream unavailable — retrying in 2 s.
+[WARNING] Stream unavailable — retrying in 2 s.
+[WARNING] Stream unavailable — retrying in 2 s.
+[WARNING] Stream unavailable — retrying in 2 s.
+[WARNING] Stream unavailable — retrying in 2 s.
+[WARNING] Stream unavailable — retrying in 2 s.
+[WARNING] Stream unavailable — retrying in 2 s.
+[WARNING] Stream unavailable — retrying in 2 s.
+[WARNING] Stream unavailable — retrying in 2 s.
+[WARNING] Stream unavailable — retrying in 2 s.
+[WARNING] Stream unavailable — retrying in 2 s.
+[WARNING] Stream unavailable — retrying in 2 s.
+[WARNING] Stream unavailable — retrying in 2 s.
+[WARNING] Stream unavailable — retrying in 2 s.
+[WARNING] Stream unavailable — retrying in 2 s.
+[WARNING] Stream unavailable — retrying in 2 s.
+[WARNING] Stream unavailable — retrying in 2 s.
+[WARNING] Stream unavailable — retrying in 2 s.
+[WARNING] Stream unavailable — retrying in 2 s.
+[WARNING] Stream unavailable — retrying in 2 s.
+[WARNING] Stream unavailable — retrying in 2 s.
+[WARNING] Stream unavailable — retrying in 2 s.
+[WARNING] Stream unavailable — retrying in 2 s.
+[WARNING] Stream unavailable — retrying in 2 s.
+[WARNING] Stream unavailable — retrying in 2 s.
+[WARNING] Stream unavailable — retrying in 2 s.
+[WARNING] Stream unavailable — retrying in 2 s.
+[WARNING] Stream unavailable — retrying in 2 s.
+[WARNING] Stream unavailable — retrying in 2 s.
+[WARNING] Stream unavailable — retrying in 2 s.
+[WARNING] Stream unavailable — retrying in 2 s.
+[WARNING] Stream unavailable — retrying in 2 s.
+[WARNING] Stream unavailable — retrying in 2 s.
+[WARNING] Stream unavailable — retrying in 2 s.
+[WARNING] Stream unavailable — retrying in 2 s.
+[WARNING] Stream unavailable — retrying in 2 s.
+[WARNING] Stream unavailable — retrying in 2 s.
+[WARNING] Stream unavailable — retrying in 2 s.
+[WARNING] Stream unavailable — retrying in 2 s.
+[WARNING] Stream unavailable — retrying in 2 s.
+[INFO] Shutting down ingestion…
+[INFO] Stream opened — reading frames.
+[INFO] Done — 2313 frames sent.
+[INFO] Connecting to RTSP: rtsp://localhost:8554/live
+[INFO] Stream opened — reading frames.
+[INFO] Shutting down ingestion…
+[INFO] Done — 787 frames sent.
+[INFO] Connecting to RTSP: rtsp://localhost:8554/live
+[INFO] Stream opened — reading frames.
+[INFO] Shutting down ingestion…
+[INFO] Done — 404 frames sent.
+[INFO] Connecting to RTSP: rtsp://localhost:8554/live
+[WARNING] Stream unavailable — retrying in 2 s.
+[WARNING] Stream unavailable — retrying in 2 s.
+[INFO] Stream opened (29.97 fps) — reading frames.
+[INFO] Shutting down ingestion…
+[INFO] Done — 630 frames sent.
+[INFO] Connecting to RTSP: rtsp://localhost:8554/live
+[INFO] Stream opened (29.97 fps) — reading frames.
+[INFO] Shutting down ingestion…
+[INFO] Done — 1559 frames sent.
+[INFO] Connecting to RTSP: rtsp://localhost:8554/live
+[INFO] Stream opened (29.97 fps) — reading frames.
+[INFO] Shutting down ingestion…
+[INFO] Done — 1224 frames sent.
+[INFO] Connecting to RTSP: rtsp://localhost:8554/live
+[INFO] Stream opened (29.97 fps) — reading frames.
+[INFO] Shutting down ingestion…
+[INFO] Done — 333 frames sent.
+[INFO] Connecting to RTSP: rtsp://localhost:8554/live
+[INFO] Stream opened (30.00 fps) — reading frames.
+[INFO] Shutting down ingestion…
+[INFO] Done — 390 frames sent.
+[INFO] Connecting to RTSP: rtsp://localhost:8554/live
+[WARNING] Stream unavailable — retrying in 2 s.
+[WARNING] Stream unavailable — retrying in 2 s.
+[WARNING] Stream unavailable — retrying in 2 s.
+[WARNING] Stream unavailable — retrying in 2 s.
+[WARNING] Stream unavailable — retrying in 2 s.
+[WARNING] Stream unavailable — retrying in 2 s.
+[INFO] Stream opened (30.00 fps) — reading frames.
+[INFO] Shutting down ingestion…
+[INFO] Done — 405 frames sent.
+[INFO] Connecting to RTSP: rtsp://localhost:8554/live
+[INFO] Stream opened (30.00 fps) — reading frames.
+[INFO] Shutting down ingestion…
+[INFO] Done — 205 frames sent.
+[INFO] Connecting to RTSP: rtsp://localhost:8554/live
+[INFO] Stream opened (30.00 fps) — reading frames.
+[INFO] Connecting to RTSP: rtsp://localhost:8554/live
+[INFO] Stream opened (30.00 fps) — reading frames.
+[WARNING] Frame read failed — reconnecting.
+[WARNING] Stream unavailable — retrying in 2 s.
+[WARNING] Frame read failed — reconnecting.
+[WARNING] Stream unavailable — retrying in 2 s.
+[WARNING] Stream unavailable — retrying in 2 s.
+[WARNING] Stream unavailable — retrying in 2 s.
+[WARNING] Stream unavailable — retrying in 2 s.
+[WARNING] Stream unavailable — retrying in 2 s.
+[WARNING] Stream unavailable — retrying in 2 s.
+[WARNING] Stream unavailable — retrying in 2 s.
+[WARNING] Stream unavailable — retrying in 2 s.
+[WARNING] Stream unavailable — retrying in 2 s.
+[INFO] Clearing Kafka topic 'quickstart-events'...
+[INFO] Topic 'quickstart-events' deleted. Waiting for Kafka to clear it...
+[INFO] Topic 'quickstart-events' successfully recreated.
+[INFO] Clearing Kafka topic 'yolo-results'...
+[INFO] Topic 'yolo-results' deleted. Waiting for Kafka to clear it...
+[INFO] Topic 'yolo-results' successfully recreated.
+[INFO] Connecting to RTSP: rtsp://localhost:8554/live
+[INFO] Stream opened (30.00 fps) — reading frames.
+[INFO] Clearing Kafka topic 'quickstart-events'...
+[INFO] Topic 'quickstart-events' deleted. Waiting for Kafka to clear it...
+[INFO] Clearing Kafka topic 'yolo-results'...
+[INFO] Topic 'yolo-results' deleted. Waiting for Kafka to clear it...
+[INFO] Topic 'yolo-results' successfully recreated.
+[INFO] Connecting to RTSP: rtsp://localhost:8554/live
+[INFO] Stream opened (30.00 fps) — reading frames.
+[INFO] Shutting down ingestion…
+[INFO] Shutting down ingestion…
+[INFO] Done — 10356 frames sent.
+[INFO] Done — 4471 frames sent.
+[INFO] Clearing Kafka topic 'quickstart-events'...
+[INFO] Topic 'quickstart-events' deleted. Waiting for Kafka to clear it...
+[INFO] Clearing Kafka topic 'quickstart-events'...
+[INFO] Topic 'quickstart-events' successfully recreated.
+[INFO] Clearing Kafka topic 'yolo-results'...
+[INFO] Topic 'quickstart-events' deleted. Waiting for Kafka to clear it...
+[INFO] Topic 'yolo-results' deleted. Waiting for Kafka to clear it...
+[INFO] Topic 'quickstart-events' successfully recreated.
+[INFO] Clearing Kafka topic 'yolo-results'...
+[INFO] Topic 'yolo-results' deleted. Waiting for Kafka to clear it...
+[INFO] Topic 'yolo-results' successfully recreated.
+[INFO] Connecting to RTSP: rtsp://localhost:8554/live
+[INFO] Clearing Kafka topic 'quickstart-events'...
+[INFO] Topic 'quickstart-events' deleted. Waiting for Kafka to clear it...
+[INFO] Stream opened (30.00 fps) — reading frames.
+[INFO] Topic 'quickstart-events' successfully recreated.
+[INFO] Clearing Kafka topic 'yolo-results'...
+[INFO] Topic 'yolo-results' deleted. Waiting for Kafka to clear it...
+[INFO] Topic 'yolo-results' successfully recreated.
+[INFO] Connecting to RTSP: rtsp://localhost:8554/live
+[INFO] Stream opened (30.00 fps) — reading frames.
+[INFO] Connecting to RTSP: rtsp://localhost:8554/live
+[INFO] Stream opened (30.00 fps) — reading frames.
+[INFO] Shutting down ingestion…
+[INFO] Shutting down ingestion…
+[INFO] Shutting down ingestion…
+[INFO] Done — 1573 frames sent.
+[INFO] Done — 1569 frames sent.
+[INFO] Done — 1336 frames sent.

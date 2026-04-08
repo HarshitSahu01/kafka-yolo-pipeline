@@ -22,7 +22,7 @@ TOPIC_VIDEO     = "quickstart-events"
 TOPIC_RESULTS   = "yolo-results"
 CONSUMER_GROUP  = "yolo-cluster-group"
 YOLO_MODEL      = "yolov8n.pt"
-MAX_LATENCY_SEC = 0.5
+MAX_LATENCY_SEC = float(os.getenv("MAX_LATENCY_SEC", "0.0"))   # default 0.0s (disabled)
 JPEG_QUALITY    = 80
 
 # Colour palette — one colour per class id (mod 20)
@@ -79,10 +79,11 @@ def run_worker(wid: str) -> None:
     model = YOLO(YOLO_MODEL)
 
     consumer = Consumer({
-        "bootstrap.servers":    KAFKA_BROKER,
-        "group.id":             CONSUMER_GROUP,
-        "auto.offset.reset":    "latest",
-        "max.poll.interval.ms": 300_000,
+        "bootstrap.servers":                  KAFKA_BROKER,
+        "group.id":                           CONSUMER_GROUP,
+        "auto.offset.reset":                  "latest",
+        "max.poll.interval.ms":               300_000,
+        "topic.metadata.refresh.interval.ms": 2000, 
     })
     consumer.subscribe([TOPIC_VIDEO])
 
@@ -105,16 +106,21 @@ def run_worker(wid: str) -> None:
 
             # Extract headers
             frame_id, timestamp = -1, 0
+            msg_fps = b""
             for key, val in (msg.headers() or []):
                 if key == "frame_id":
                     frame_id = int(val)
                 elif key == "timestamp":
                     timestamp = int(val)
+                elif key == "fps":
+                    msg_fps = val
 
-            # Drop stale frames
-            latency = max(0.0, (int(time.time() * 1000) - timestamp) / 1000.0)
-            if latency > MAX_LATENCY_SEC:
-                continue
+            # Optionally drop stale frames (disabled by default — set MAX_LATENCY_SEC > 0 to enable)
+            if MAX_LATENCY_SEC > 0:
+                latency = max(0.0, (int(time.time() * 1000) - timestamp) / 1000.0)
+                if latency > MAX_LATENCY_SEC:
+                    log.debug("Dropping stale frame %d (latency %.2fs)", frame_id, latency)
+                    continue
 
             # Decode
             arr   = np.frombuffer(msg.value(), dtype=np.uint8)
@@ -137,6 +143,8 @@ def run_worker(wid: str) -> None:
                 continue
 
             headers = [("frame_id", str(frame_id).encode())]
+            if msg_fps:
+                headers.append(("fps", msg_fps))
             try:
                 producer.produce(TOPIC_RESULTS, buf.tobytes(), headers=headers)
                 producer.poll(0)

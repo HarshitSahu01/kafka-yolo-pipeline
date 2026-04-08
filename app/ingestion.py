@@ -19,13 +19,17 @@ import time
 
 import cv2
 from confluent_kafka import Producer
+from confluent_kafka.admin import AdminClient
 
 # ── Config ────────────────────────────────────────────────────────────────────
 KAFKA_BROKER   = os.getenv("KAFKA_BROKER", "localhost:9092")
 TOPIC          = "quickstart-events"
 MAX_RESOLUTION = (1280, 720)
 JPEG_QUALITY   = 80
-TARGET_FPS     = 30
+TARGET_FPS     = 60
+
+# Mute FFmpeg H264 decoding spam from OpenCV during RTSP stream dropouts
+os.environ["OPENCV_FFMPEG_LOGLEVEL"] = "-8"
 
 # ── Logging ───────────────────────────────────────────────────────────────────
 os.makedirs("logs", exist_ok=True)
@@ -52,6 +56,34 @@ signal.signal(signal.SIGTERM, _stop)
 
 
 # ── Helpers ───────────────────────────────────────────────────────────────────
+from confluent_kafka.admin import AdminClient, NewTopic
+
+def _clear_topic(broker: str, topic: str):
+    log.info("Clearing Kafka topic '%s'...", topic)
+    try:
+        admin = AdminClient({'bootstrap.servers': broker})
+        fs = admin.delete_topics([topic])
+        for t, f in fs.items():
+            try:
+                f.result()
+            except Exception:
+                pass # Usually implies topic didn't exist
+        log.info("Topic '%s' deleted. Waiting for Kafka to clear it...", topic)
+        
+        # Explicitly recreate the topic
+        for _ in range(10):
+            time.sleep(1)
+            try:
+                fs = admin.create_topics([NewTopic(topic, num_partitions=1, replication_factor=1)])
+                for t, f in fs.items():
+                    f.result()
+                log.info("Topic '%s' successfully recreated.", topic)
+                break
+            except Exception:
+                pass
+    except Exception as e:
+        log.info("Error clearing topic: %s", e)
+
 def _make_producer() -> Producer:
     return Producer({
         "bootstrap.servers":            KAFKA_BROKER,
@@ -61,7 +93,7 @@ def _make_producer() -> Producer:
     })
 
 
-def _publish(producer: Producer, frame, frame_id: int) -> None:
+def _publish(producer: Producer, frame, frame_id: int, fps: float) -> None:
     h, w = frame.shape[:2]
     if w > MAX_RESOLUTION[0] or h > MAX_RESOLUTION[1]:
         frame = cv2.resize(frame, MAX_RESOLUTION, interpolation=cv2.INTER_AREA)
@@ -71,13 +103,16 @@ def _publish(producer: Producer, frame, frame_id: int) -> None:
     headers = [
         ("frame_id",  str(frame_id).encode()),
         ("timestamp", str(int(time.time() * 1000)).encode()),
+        ("fps",       str(fps).encode()),
     ]
-    try:
-        producer.produce(TOPIC, buf.tobytes(), headers=headers)
-        producer.poll(0)
-    except BufferError:
-        log.warning("Producer queue full — dropping frame %d.", frame_id)
-        producer.poll(0.1)
+    while not _SHUTDOWN:
+        try:
+            producer.produce(TOPIC, buf.tobytes(), headers=headers)
+            producer.poll(0)
+            break
+        except BufferError:
+            log.warning("Producer queue full — waiting for space at frame %d...", frame_id)
+            producer.poll(0.1)
 
 
 # ── Ingestion modes ───────────────────────────────────────────────────────────
@@ -86,22 +121,25 @@ def ingest_file(video_path: str) -> None:
     producer = _make_producer()
     frame_id = 0
     loop = 0
-    log.info("Ingesting '%s' → Kafka (looping at %d fps).", video_path, TARGET_FPS)
+    log.info("Ingesting '%s' → Kafka.", video_path)
     try:
         while not _SHUTDOWN:
             cap = cv2.VideoCapture(video_path)
             if not cap.isOpened():
                 log.error("Cannot open: %s", video_path)
                 break
+            fps = cap.get(cv2.CAP_PROP_FPS)
+            if not fps or fps != fps or fps <= 0:
+                fps = 30.0
             loop += 1
-            log.info("Loop %d.", loop)
+            log.info("Loop %d (%.2f fps).", loop, fps)
             while not _SHUTDOWN:
                 ok, frame = cap.read()
                 if not ok:
                     break
-                _publish(producer, frame, frame_id)
+                _publish(producer, frame, frame_id, fps)
                 frame_id += 1
-                time.sleep(1 / TARGET_FPS)
+                time.sleep(1 / fps)
             cap.release()
     finally:
         producer.flush()
@@ -124,13 +162,16 @@ def ingest_rtsp(rtsp_url: str) -> None:
                 log.warning("Stream unavailable — retrying in 2 s.")
                 time.sleep(2)
                 continue
-            log.info("Stream opened — reading frames.")
+            fps = cap.get(cv2.CAP_PROP_FPS)
+            if not fps or fps != fps or fps <= 0:
+                fps = 30.0
+            log.info("Stream opened (%.2f fps) — reading frames.", fps)
             while not _SHUTDOWN:
                 ok, frame = cap.read()
                 if not ok:
                     log.warning("Frame read failed — reconnecting.")
                     break
-                _publish(producer, frame, frame_id)
+                _publish(producer, frame, frame_id, fps)
                 frame_id += 1
             cap.release()
     finally:
@@ -147,6 +188,9 @@ if __name__ == "__main__":
     group.add_argument("--video", metavar="PATH", default="race_car.mp4",
                        help="Local video file to loop (default: race_car.mp4).")
     args = parser.parse_args()
+
+    _clear_topic(KAFKA_BROKER, TOPIC)
+    _clear_topic(KAFKA_BROKER, "yolo-results")
 
     if args.rtsp:
         ingest_rtsp(args.rtsp)
