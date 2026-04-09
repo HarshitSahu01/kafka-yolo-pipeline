@@ -1,0 +1,28 @@
+
+# Infrastructure only — Python nodes are launched by main.py as local subprocesses.
+
+services:
+
+  zookeeper:
+    image: wurstmeister/zookeeper:latest
+    ports:
+      - "2181:2181"
+
+  kafka:
+    image: wurstmeister/kafka:latest
+    ports:
+      - "9092:9092"
+    environment:
+      KAFKA_ADVERTISED_HOST_NAME: localhost
+      KAFKA_ZOOKEEPER_CONNECT: zookeeper:2181
+      KAFKA_CREATE_TOPICS: "quickstart-events:3:1,yolo-results:1:1"
+      KAFKA_MESSAGE_MAX_BYTES: 10485760        # 10 MB — fits 720p JPEGs
+      KAFKA_REPLICA_FETCH_MAX_BYTES: 10485760
+    depends_on:
+      - zookeeper
+
+  mediamtx:
+    image: bluenviron/mediamtx:latest
+    ports:
+      - "8554:8554"
+    restart: unless-stopped
