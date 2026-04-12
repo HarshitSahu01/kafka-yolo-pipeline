@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
-result_collector.py — Collect annotated JPEG frames from yolo-results, reorder
-                      shuffled frames, and write output/output_{id}.mp4.
+result_collector.py — Collect annotated JPEG frames from yolo-results,
+                      reorder shuffled frames, and write output/output_{id}.mp4.
                       Ctrl+C finalises the video cleanly.
 
     python result_collector.py
@@ -24,19 +24,20 @@ KAFKA_BROKER   = os.getenv("KAFKA_BROKER", "localhost:9092")
 TOPIC_RESULTS  = "yolo-results"
 CONSUMER_GROUP = "yolo-results-group"
 
-# Out-of-order buffer: hold at most this many frames before forcing a flush
-REORDER_WINDOW = 60   # ~2 s at 30 fps — absorbs burst shuffles
-# After this many seconds of silence we assume a gap and flush whatever we have
-FLUSH_TIMEOUT  = 2.0
+# Out-of-order buffer: hold at most this many frames before forcing a flush.
+REORDER_WINDOW = 90    # ~3 s at 30 fps
 
-OUTPUT_DIR     = "output"
-OUTPUT_FPS     = 25
-OUTPUT_W       = 1280
-OUTPUT_H       = 720
+# Force-flush the heap when no new messages arrive for this long.
+FLUSH_TIMEOUT  = 1.0   # seconds
+
+OUTPUT_DIR = "output"
+OUTPUT_FPS = 25
+OUTPUT_W   = 1280
+OUTPUT_H   = 720
 
 # ── Logging ───────────────────────────────────────────────────────────────────
-os.makedirs("logs",      exist_ok=True)
-os.makedirs(OUTPUT_DIR,  exist_ok=True)
+os.makedirs("logs",     exist_ok=True)
+os.makedirs(OUTPUT_DIR, exist_ok=True)
 logging.basicConfig(
     level=logging.INFO,
     format="[%(levelname)s] %(message)s",
@@ -78,47 +79,67 @@ def _decode(data: bytes, w: int, h: int) -> np.ndarray | None:
     return frame
 
 
-def _flush_heap(heap: list, writer: cv2.VideoWriter, w: int, h: int,
-                next_expected: int, force: bool = False) -> int:
+def _flush_heap(
+    heap: list,
+    writer: cv2.VideoWriter,
+    w: int,
+    h: int,
+    next_expected: int,
+    force: bool = False,
+) -> tuple[int, int]:
     """Write all consecutive frames starting from *next_expected*.
 
-    If *force* is True, also skip any gap (write whatever is at the heap top)
-    so we never block forever on a missing frame.
+    Returns (updated_next_expected, frames_written_this_call).
+    If *force* is True, gaps are skipped so the writer never stalls.
     """
+    written = 0
     while heap:
         fid, data = heap[0]
+
         if fid == next_expected:
             heapq.heappop(heap)
             frame = _decode(data, w, h)
             if frame is not None:
                 writer.write(frame)
+                written += 1
             next_expected += 1
+
+        elif fid < next_expected:
+            # Duplicate — discard silently
+            heapq.heappop(heap)
+
         elif force and fid > next_expected:
-            # Skip the missing frames — just advance the counter
             log.debug("Skipping missing frames %d‥%d", next_expected, fid - 1)
             next_expected = fid
+
         else:
-            break   # waiting for a frame that hasn't arrived yet
-    return next_expected
+            break
+
+    return next_expected, written
 
 
 # ── Main ──────────────────────────────────────────────────────────────────────
 def main(fps: int, width: int, height: int) -> None:
     output_id = str(int(time.time()))
-    consumer  = Consumer({
-        "bootstrap.servers":    KAFKA_BROKER,
-        "group.id":             CONSUMER_GROUP,
-        "auto.offset.reset":    "latest",
-        "max.poll.interval.ms": 300_000,
-        "fetch.max.bytes":      20_000_000,   # 20 MB — large annotated frames
+
+    consumer = Consumer({
+        "bootstrap.servers":         KAFKA_BROKER,
+        "group.id":                  CONSUMER_GROUP,
+        "auto.offset.reset":         "earliest",
+        "enable.auto.commit":        True,
+        "auto.commit.interval.ms":   1000,
+        "max.poll.interval.ms":      300_000,
+        "fetch.max.bytes":           20_000_000,
         "max.partition.fetch.bytes": 20_000_000,
+        "fetch.min.bytes":           1,
+        "fetch.wait.max.ms":         100,
     })
     consumer.subscribe([TOPIC_RESULTS])
 
     writer         = _make_writer(output_id, width, height, fps)
-    heap: list     = []           # min-heap of (frame_id, jpeg_bytes)
-    seen: set      = set()        # dedup guard against duplicates
-    next_expected  = None         # first frame_id we ever see
+    heap: list     = []
+    seen: set      = set()
+    next_expected  = None
     last_msg_time  = time.monotonic()
     total_written  = 0
 
@@ -126,21 +147,24 @@ def main(fps: int, width: int, height: int) -> None:
 
     try:
         while not _SHUTDOWN:
-            msg = consumer.poll(0.2)
+            msg = consumer.poll(0.05)
 
             now = time.monotonic()
 
-            # Timeout flush — force-drain the heap when the stream stalls
-            if now - last_msg_time > FLUSH_TIMEOUT and heap:
-                next_expected = _flush_heap(heap, writer, width, height,
-                                            next_expected, force=True)
+            # Force-flush when stream pauses to unblock the writer
+            if now - last_msg_time > FLUSH_TIMEOUT and heap and next_expected is not None:
+                next_expected, n = _flush_heap(
+                    heap, writer, width, height, next_expected, force=True
+                )
+                total_written += n
+                last_msg_time  = now
 
             if msg is None or msg.error():
                 continue
 
             last_msg_time = now
 
-            # Parse frame_id from headers
+            # Parse frame_id
             frame_id = None
             for key, val in (msg.headers() or []):
                 if key == "frame_id":
@@ -153,32 +177,35 @@ def main(fps: int, width: int, height: int) -> None:
                 continue
             seen.add(frame_id)
 
-            # Bootstrap expected counter on first message
             if next_expected is None:
                 next_expected = frame_id
+                log.info("First frame received — id=%d", frame_id)
 
             heapq.heappush(heap, (frame_id, msg.value()))
 
-            # Flush in-order frames whenever the buffer is large enough
+            # Flush once the reorder buffer is large enough
             if len(heap) >= REORDER_WINDOW:
-                before         = next_expected
-                next_expected  = _flush_heap(heap, writer, width, height,
-                                             next_expected, force=False)
-                total_written += next_expected - before
+                next_expected, n = _flush_heap(
+                    heap, writer, width, height, next_expected, force=False
+                )
+                total_written += n
 
-            # Also greedily flush any consecutive run that's ready
-            next_expected  = _flush_heap(heap, writer, width, height,
-                                         next_expected, force=False)
+            # Greedily flush any consecutive run that is already ready
+            next_expected, n = _flush_heap(
+                heap, writer, width, height, next_expected, force=False
+            )
+            total_written += n
 
     finally:
-        # Force-flush every remaining buffered frame before closing
         if next_expected is not None:
-            next_expected = _flush_heap(heap, writer, width, height,
-                                        next_expected, force=True)
+            _, n = _flush_heap(
+                heap, writer, width, height, next_expected, force=True
+            )
+            total_written += n
+
         writer.release()
         consumer.close()
-        log.info("Video saved — %d frames written, %d frames still in buffer flushed.",
-                 total_written, len(heap))
+        log.info("Done — %d frames written total.", total_written)
         log.info("Output: %s/output_%s.mp4", OUTPUT_DIR, output_id)
 
 

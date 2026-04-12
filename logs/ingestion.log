@@ -1,0 +1,24 @@
+[INFO] Ingesting 'sample.mp4' → Kafka (looping at 30 fps).
+[INFO] Loop 1.
+[INFO] Ingesting 'sample.mp4' → Kafka (looping at 30 fps).
+[INFO] Loop 1.
+[INFO] Shutting down ingestion…
+[INFO] Shutting down ingestion…
+[INFO] Done — 3224 frames sent.
+[INFO] Done — 4888 frames sent.
+[INFO] Ingesting 'sample.mp4' → Kafka (looping at 30 fps).
+[INFO] Loop 1.
+[INFO] Shutting down ingestion…
+[INFO] Done — 3199 frames sent.
+[INFO] Ingesting 'sample.mp4' → Kafka (looping at 30 fps).
+[INFO] Loop 1.
+[INFO] Shutting down ingestion…
+[INFO] Done — 4365 frames sent.
+[INFO] Ingesting 'sample.mp4' → Kafka (looping at 30 fps).
+[INFO] Loop 1.
+[INFO] Loop 2.
+[INFO] Loop 3.
+[INFO] Loop 4.
+[INFO] Loop 5.
+[INFO] Loop 6.
+[INFO] Loop 7.

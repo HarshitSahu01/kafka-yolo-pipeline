@@ -1,1 +1,15 @@
 [INFO] Worker 0 ready (annotation mode).
+[INFO] YOLO model loaded. Confidence threshold: 0.35
+[INFO] Worker 0 ready.
+[INFO] Worker 0 shutting down.
+[INFO] Worker 0 done.
+[INFO] YOLO model loaded. Confidence threshold: 0.35
+[INFO] Worker 0 ready.
+[INFO] Worker 0 shutting down.
+[INFO] Worker 0 done.
+[INFO] YOLO model loaded. Confidence threshold: 0.35
+[INFO] Worker 0 ready.
+[INFO] Worker 0 shutting down.
+[INFO] Worker 0 done.
+[INFO] YOLO loaded. conf=0.35  batch=4
+[INFO] Worker 0 pipeline running (3 stages, batch=4).

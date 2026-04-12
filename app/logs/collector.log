@@ -1,0 +1,1667 @@
+[INFO] Writing video → output/output_1775996000.mp4  (1280x720 @ 25 fps)
+[INFO] Collector started — Ctrl+C to stop and finalise.
+[INFO] Ctrl+C received — finalising video…
+[INFO] Video saved — 0 frames written, 0 frames still in buffer flushed.
+[INFO] Output: output/output_1775996000.mp4
+[INFO] Writing video → output/output_1775996132.mp4  (1280x720 @ 25 fps)
+[INFO] Collector started — Ctrl+C to stop and finalise.
+[INFO] Ctrl+C received — finalising video…
+[INFO] Video saved — 0 frames written, 0 frames still in buffer flushed.
+[INFO] Output: output/output_1775996132.mp4
+[INFO] Writing video → output/output_1775996317.mp4  (1280x720 @ 25 fps)
+[INFO] Collector started — Ctrl+C to stop and finalise.
+[INFO] Ctrl+C received — finalising video…
+[INFO] Video saved — 0 frames written, 0 frames still in buffer flushed.
+[INFO] Output: output/output_1775996317.mp4
+[INFO] Writing video → output/output_1775998392.mp4  (1280x720 @ 25 fps)
+[INFO] Collector started — Ctrl+C to stop and finalise.
+[INFO] Ctrl+C received — finalising video…
+[INFO] Video saved — 0 frames written, 78 frames still in buffer flushed.
+[INFO] Output: output/output_1775998392.mp4
+[INFO] Writing video → output/output_1775998489.mp4  (1280x720 @ 25 fps)
+[INFO] Collector started — Ctrl+C to stop and finalise.
+[INFO] Ctrl+C received — finalising video…
+[INFO] Video saved — 0 frames written, 158 frames still in buffer flushed.
+[INFO] Output: output/output_1775998489.mp4
+[INFO] Writing video → output/output_1775998517.mp4  (1280x720 @ 25 fps)
+[INFO] Collector started — Ctrl+C to stop and finalise.
+[INFO] Ctrl+C received — finalising video…
+[INFO] Video saved — 0 frames written, 784 frames still in buffer flushed.
+[INFO] Output: output/output_1775998517.mp4
+[INFO] Writing video → output/output_1775998939.mp4  (1280x720 @ 25 fps)
+[INFO] Collector started — Ctrl+C to stop and finalise.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 2 times to cover 680 to 681.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 2 times to cover 684 to 685.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 7 times to cover 687 to 693.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 9 times to cover 695 to 703.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 18 times to cover 705 to 722.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 2 times to cover 724 to 725.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 27 times to cover 728 to 754.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 19 times to cover 756 to 774.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 16 times to cover 776 to 791.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 3 times to cover 795 to 797.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 19 times to cover 799 to 817.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 7 times to cover 819 to 825.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 5 times to cover 827 to 831.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 8 times to cover 833 to 840.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 8 times to cover 842 to 849.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 4 times to cover 852 to 855.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 2 times to cover 857 to 858.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 5 times to cover 860 to 864.
+[INFO] Ctrl+C received — finalising video…
+[INFO] Video saved — 349 frames written, 1311 frames still in buffer flushed.
+[INFO] Output: output/output_1775998939.mp4
+[INFO] Writing video → output/output_1775999016.mp4  (1280x720 @ 25 fps)
+[INFO] Collector started — Ctrl+C to stop and finalise.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 3 times to cover 78 to 80.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 3 times to cover 82 to 84.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 1 times to cover 89 to 89.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 1 times to cover 91 to 91.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 2 times to cover 93 to 94.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 2 times to cover 96 to 97.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 1 times to cover 99 to 99.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 1 times to cover 101 to 101.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 1 times to cover 103 to 103.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 1 times to cover 105 to 105.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 2 times to cover 108 to 109.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 2 times to cover 111 to 112.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 1 times to cover 114 to 114.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 1 times to cover 116 to 116.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 1 times to cover 118 to 118.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 1 times to cover 120 to 120.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 2 times to cover 122 to 123.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 1 times to cover 126 to 126.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 1 times to cover 128 to 128.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 1 times to cover 130 to 130.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 1 times to cover 132 to 132.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 1 times to cover 134 to 134.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 1 times to cover 137 to 137.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 1 times to cover 139 to 139.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 5 times to cover 142 to 146.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 4 times to cover 148 to 151.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 12 times to cover 154 to 165.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 3 times to cover 167 to 169.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 3 times to cover 171 to 173.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 3 times to cover 175 to 177.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 3 times to cover 179 to 181.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 9 times to cover 183 to 191.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 5 times to cover 193 to 197.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 6 times to cover 199 to 204.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 4 times to cover 206 to 209.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 2 times to cover 211 to 212.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 6 times to cover 214 to 219.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 2 times to cover 222 to 223.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 4 times to cover 225 to 228.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 2 times to cover 230 to 231.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 4 times to cover 233 to 236.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 6 times to cover 238 to 243.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 2 times to cover 245 to 246.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 4 times to cover 248 to 251.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 3 times to cover 253 to 255.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 12 times to cover 257 to 268.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 4 times to cover 270 to 273.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 2 times to cover 275 to 276.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 3 times to cover 278 to 280.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 22 times to cover 283 to 304.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 12 times to cover 306 to 317.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 13 times to cover 319 to 331.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 1 times to cover 333 to 333.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 2 times to cover 335 to 336.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 1 times to cover 338 to 338.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 7 times to cover 340 to 346.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 1 times to cover 348 to 348.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 4 times to cover 350 to 353.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 2 times to cover 355 to 356.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 5 times to cover 358 to 362.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 3 times to cover 364 to 366.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 9 times to cover 368 to 376.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 8 times to cover 378 to 385.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 5 times to cover 387 to 391.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 6 times to cover 393 to 398.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 1 times to cover 400 to 400.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 3 times to cover 402 to 404.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 3 times to cover 407 to 409.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 4 times to cover 411 to 414.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 7 times to cover 416 to 422.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 10 times to cover 425 to 434.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 2 times to cover 436 to 437.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 6 times to cover 439 to 444.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 1 times to cover 446 to 446.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 10 times to cover 448 to 457.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 4 times to cover 459 to 462.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 1 times to cover 464 to 464.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 5 times to cover 466 to 470.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 4 times to cover 472 to 475.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 2 times to cover 477 to 478.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 3 times to cover 480 to 482.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 2 times to cover 484 to 485.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 5 times to cover 487 to 491.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 3 times to cover 493 to 495.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 4 times to cover 497 to 500.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 1 times to cover 502 to 502.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 2 times to cover 504 to 505.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 2 times to cover 507 to 508.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 14 times to cover 510 to 523.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 9 times to cover 525 to 533.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 9 times to cover 536 to 544.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 1 times to cover 547 to 547.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 6 times to cover 549 to 554.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 7 times to cover 557 to 563.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 2 times to cover 565 to 566.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 3 times to cover 568 to 570.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 3 times to cover 572 to 574.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 5 times to cover 576 to 580.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 1 times to cover 582 to 582.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 3 times to cover 584 to 586.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 5 times to cover 588 to 592.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 4 times to cover 594 to 597.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 2 times to cover 600 to 601.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 4 times to cover 603 to 606.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 2 times to cover 608 to 609.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 6 times to cover 611 to 616.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 11 times to cover 618 to 628.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 11 times to cover 630 to 640.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 2 times to cover 642 to 643.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 3 times to cover 645 to 647.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 3 times to cover 649 to 651.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 2 times to cover 653 to 654.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 4 times to cover 656 to 659.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 3 times to cover 662 to 664.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 12 times to cover 666 to 677.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 5 times to cover 680 to 684.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 3 times to cover 687 to 689.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 5 times to cover 692 to 696.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 6 times to cover 699 to 704.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 3 times to cover 706 to 708.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 3 times to cover 710 to 712.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 9 times to cover 715 to 723.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 1 times to cover 725 to 725.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 2 times to cover 727 to 728.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 7 times to cover 730 to 736.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 3 times to cover 738 to 740.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 1 times to cover 742 to 742.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 3 times to cover 745 to 747.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 4 times to cover 749 to 752.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 1 times to cover 754 to 754.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 9 times to cover 756 to 764.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 8 times to cover 766 to 773.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 10 times to cover 775 to 784.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 5 times to cover 786 to 790.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 5 times to cover 792 to 796.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 4 times to cover 798 to 801.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 5 times to cover 803 to 807.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 3 times to cover 809 to 811.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 3 times to cover 813 to 815.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 10 times to cover 817 to 826.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 7 times to cover 829 to 835.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 4 times to cover 837 to 840.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 3 times to cover 842 to 844.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 8 times to cover 846 to 853.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 5 times to cover 857 to 861.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 2 times to cover 863 to 864.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 5 times to cover 866 to 870.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 6 times to cover 872 to 877.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 1 times to cover 879 to 879.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 10 times to cover 881 to 890.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 2 times to cover 892 to 893.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 1 times to cover 895 to 895.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 11 times to cover 897 to 907.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 6 times to cover 909 to 914.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 6 times to cover 917 to 922.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 11 times to cover 924 to 934.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 8 times to cover 936 to 943.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 3 times to cover 945 to 947.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 7 times to cover 949 to 955.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 7 times to cover 957 to 963.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 4 times to cover 965 to 968.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 3 times to cover 970 to 972.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 5 times to cover 974 to 978.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 7 times to cover 981 to 987.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 1 times to cover 989 to 989.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 12 times to cover 991 to 1002.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 1 times to cover 1004 to 1004.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 1 times to cover 1006 to 1006.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 4 times to cover 1008 to 1011.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 3 times to cover 1013 to 1015.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 9 times to cover 1017 to 1025.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 4 times to cover 1027 to 1030.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 2 times to cover 1032 to 1033.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 2 times to cover 1035 to 1036.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 2 times to cover 1038 to 1039.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 4 times to cover 1041 to 1044.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 8 times to cover 1046 to 1053.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 6 times to cover 1055 to 1060.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 1 times to cover 1062 to 1062.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 7 times to cover 1064 to 1070.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 1 times to cover 1072 to 1072.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 6 times to cover 1074 to 1079.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 6 times to cover 1082 to 1087.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 2 times to cover 1089 to 1090.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 6 times to cover 1092 to 1097.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 11 times to cover 1100 to 1110.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 6 times to cover 1113 to 1118.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 2 times to cover 1120 to 1121.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 4 times to cover 1123 to 1126.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 2 times to cover 1128 to 1129.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 2 times to cover 1131 to 1132.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 7 times to cover 1134 to 1140.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 6 times to cover 1142 to 1147.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 7 times to cover 1150 to 1156.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 1 times to cover 1158 to 1158.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 8 times to cover 1160 to 1167.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 3 times to cover 1169 to 1171.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 11 times to cover 1173 to 1183.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 6 times to cover 1185 to 1190.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 1 times to cover 1192 to 1192.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 1 times to cover 1194 to 1194.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 5 times to cover 1196 to 1200.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 4 times to cover 1202 to 1205.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 7 times to cover 1207 to 1213.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 6 times to cover 1215 to 1220.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 6 times to cover 1222 to 1227.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 2 times to cover 1229 to 1230.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 5 times to cover 1232 to 1236.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 1 times to cover 1238 to 1238.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 4 times to cover 1240 to 1243.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 8 times to cover 1245 to 1252.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 1 times to cover 1254 to 1254.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 8 times to cover 1256 to 1263.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 4 times to cover 1265 to 1268.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 6 times to cover 1270 to 1275.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 3 times to cover 1277 to 1279.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 3 times to cover 1281 to 1283.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 4 times to cover 1285 to 1288.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 2 times to cover 1290 to 1291.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 7 times to cover 1293 to 1299.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 12 times to cover 1301 to 1312.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 6 times to cover 1314 to 1319.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 2 times to cover 1321 to 1322.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 5 times to cover 1324 to 1328.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 4 times to cover 1331 to 1334.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 3 times to cover 1336 to 1338.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 6 times to cover 1340 to 1345.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 5 times to cover 1347 to 1351.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 5 times to cover 1353 to 1357.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 3 times to cover 1359 to 1361.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 2 times to cover 1363 to 1364.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 7 times to cover 1366 to 1372.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 7 times to cover 1374 to 1380.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 1 times to cover 1382 to 1382.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 7 times to cover 1384 to 1390.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 5 times to cover 1393 to 1397.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 1 times to cover 1399 to 1399.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 17 times to cover 1401 to 1417.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 1 times to cover 1419 to 1419.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 11 times to cover 1421 to 1431.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 2 times to cover 1433 to 1434.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 7 times to cover 1437 to 1443.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 2 times to cover 1445 to 1446.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 6 times to cover 1448 to 1453.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 1 times to cover 1455 to 1455.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 5 times to cover 1457 to 1461.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 4 times to cover 1463 to 1466.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 1 times to cover 1468 to 1468.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 16 times to cover 1470 to 1485.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 7 times to cover 1488 to 1494.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 3 times to cover 1497 to 1499.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 6 times to cover 1501 to 1506.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 9 times to cover 1508 to 1516.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 6 times to cover 1518 to 1523.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 5 times to cover 1525 to 1529.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 17 times to cover 1531 to 1547.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 5 times to cover 1550 to 1554.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 2 times to cover 1556 to 1557.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 5 times to cover 1559 to 1563.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 1 times to cover 1565 to 1565.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 3 times to cover 1567 to 1569.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 5 times to cover 1571 to 1575.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 4 times to cover 1578 to 1581.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 5 times to cover 1583 to 1587.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 6 times to cover 1589 to 1594.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 1 times to cover 1596 to 1596.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 2 times to cover 1598 to 1599.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 5 times to cover 1601 to 1605.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 1 times to cover 1607 to 1607.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 5 times to cover 1609 to 1613.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 3 times to cover 1615 to 1617.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 11 times to cover 1619 to 1629.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 1 times to cover 1631 to 1631.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 9 times to cover 1634 to 1642.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 2 times to cover 1644 to 1645.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 5 times to cover 1647 to 1651.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 2 times to cover 1653 to 1654.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 3 times to cover 1656 to 1658.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 8 times to cover 1660 to 1667.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 3 times to cover 1669 to 1671.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 2 times to cover 1673 to 1674.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 3 times to cover 1676 to 1678.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 3 times to cover 1680 to 1682.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 8 times to cover 1684 to 1691.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 5 times to cover 1694 to 1698.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 6 times to cover 1700 to 1705.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 4 times to cover 1708 to 1711.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 9 times to cover 1713 to 1721.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 7 times to cover 1723 to 1729.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 8 times to cover 1731 to 1738.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 4 times to cover 1740 to 1743.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 1 times to cover 1745 to 1745.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 12 times to cover 1747 to 1758.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 2 times to cover 1760 to 1761.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 2 times to cover 1763 to 1764.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 3 times to cover 1766 to 1768.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 10 times to cover 1770 to 1779.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 10 times to cover 1781 to 1790.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 1 times to cover 1793 to 1793.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 13 times to cover 1795 to 1807.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 3 times to cover 1809 to 1811.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 2 times to cover 1813 to 1814.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 4 times to cover 1816 to 1819.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 4 times to cover 1821 to 1824.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 3 times to cover 1826 to 1828.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 1 times to cover 1830 to 1830.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 6 times to cover 1832 to 1837.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 11 times to cover 1840 to 1850.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 6 times to cover 1852 to 1857.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 8 times to cover 1860 to 1867.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 1 times to cover 1869 to 1869.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 5 times to cover 1871 to 1875.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 4 times to cover 1877 to 1880.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 3 times to cover 1882 to 1884.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 4 times to cover 1886 to 1889.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 9 times to cover 1891 to 1899.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 8 times to cover 1901 to 1908.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 2 times to cover 1910 to 1911.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 9 times to cover 1913 to 1921.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 7 times to cover 1923 to 1929.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 11 times to cover 1931 to 1941.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 10 times to cover 1943 to 1952.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 5 times to cover 1954 to 1958.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 6 times to cover 1960 to 1965.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 2 times to cover 1967 to 1968.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 3 times to cover 1970 to 1972.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 2 times to cover 1974 to 1975.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 8 times to cover 1977 to 1984.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 26 times to cover 1986 to 2011.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 8 times to cover 2013 to 2020.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 7 times to cover 2022 to 2028.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 8 times to cover 2030 to 2037.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 1 times to cover 2039 to 2039.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 3 times to cover 2041 to 2043.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 9 times to cover 2045 to 2053.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 3 times to cover 2055 to 2057.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 3 times to cover 2059 to 2061.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 8 times to cover 2063 to 2070.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 2 times to cover 2072 to 2073.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 8 times to cover 2075 to 2082.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 4 times to cover 2085 to 2088.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 3 times to cover 2090 to 2092.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 9 times to cover 2094 to 2102.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 9 times to cover 2104 to 2112.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 3 times to cover 2114 to 2116.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 1 times to cover 2118 to 2118.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 10 times to cover 2121 to 2130.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 1 times to cover 2132 to 2132.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 4 times to cover 2134 to 2137.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 9 times to cover 2139 to 2147.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 2 times to cover 2149 to 2150.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 2 times to cover 2152 to 2153.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 3 times to cover 2155 to 2157.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 3 times to cover 2159 to 2161.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 5 times to cover 2163 to 2167.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 3 times to cover 2169 to 2171.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 7 times to cover 2173 to 2179.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 7 times to cover 2181 to 2187.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 3 times to cover 2189 to 2191.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 8 times to cover 2193 to 2200.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 5 times to cover 2202 to 2206.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 5 times to cover 2208 to 2212.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 5 times to cover 2214 to 2218.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 11 times to cover 2220 to 2230.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 5 times to cover 2232 to 2236.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 5 times to cover 2238 to 2242.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 1 times to cover 2244 to 2244.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 4 times to cover 2246 to 2249.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 4 times to cover 2251 to 2254.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 4 times to cover 2256 to 2259.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 2 times to cover 2261 to 2262.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 4 times to cover 2264 to 2267.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 11 times to cover 2269 to 2279.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 6 times to cover 2281 to 2286.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 6 times to cover 2288 to 2293.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 1 times to cover 2295 to 2295.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 6 times to cover 2297 to 2302.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 3 times to cover 2304 to 2306.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 1 times to cover 2308 to 2308.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 6 times to cover 2310 to 2315.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 5 times to cover 2317 to 2321.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 6 times to cover 2323 to 2328.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 18 times to cover 2331 to 2348.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 3 times to cover 2350 to 2352.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 3 times to cover 2354 to 2356.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 6 times to cover 2358 to 2363.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 10 times to cover 2366 to 2375.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 2 times to cover 2377 to 2378.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 7 times to cover 2380 to 2386.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 3 times to cover 2388 to 2390.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 3 times to cover 2392 to 2394.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 9 times to cover 2396 to 2404.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 7 times to cover 2407 to 2413.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 1 times to cover 2415 to 2415.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 4 times to cover 2417 to 2420.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 1 times to cover 2422 to 2422.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 5 times to cover 2424 to 2428.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 5 times to cover 2430 to 2434.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 5 times to cover 2436 to 2440.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 1 times to cover 2442 to 2442.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 4 times to cover 2444 to 2447.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 8 times to cover 2449 to 2456.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 3 times to cover 2458 to 2460.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 6 times to cover 2462 to 2467.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 6 times to cover 2469 to 2474.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 4 times to cover 2476 to 2479.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 5 times to cover 2481 to 2485.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 2 times to cover 2487 to 2488.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 7 times to cover 2490 to 2496.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 2 times to cover 2498 to 2499.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 10 times to cover 2501 to 2510.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 5 times to cover 2512 to 2516.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 11 times to cover 2518 to 2528.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 21 times to cover 2530 to 2550.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 1 times to cover 2552 to 2552.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 7 times to cover 2554 to 2560.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 4 times to cover 2562 to 2565.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 4 times to cover 2567 to 2570.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 4 times to cover 2572 to 2575.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 4 times to cover 2577 to 2580.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 3 times to cover 2582 to 2584.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 9 times to cover 2586 to 2594.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 4 times to cover 2596 to 2599.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 7 times to cover 2602 to 2608.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 8 times to cover 2610 to 2617.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 7 times to cover 2619 to 2625.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 7 times to cover 2628 to 2634.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 8 times to cover 2637 to 2644.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 6 times to cover 2646 to 2651.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 1 times to cover 2653 to 2653.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 5 times to cover 2655 to 2659.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 7 times to cover 2661 to 2667.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 5 times to cover 2669 to 2673.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 2 times to cover 2675 to 2676.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 12 times to cover 2679 to 2690.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 4 times to cover 2692 to 2695.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 8 times to cover 2697 to 2704.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 7 times to cover 2706 to 2712.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 6 times to cover 2714 to 2719.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 8 times to cover 2721 to 2728.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 4 times to cover 2730 to 2733.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 1 times to cover 2735 to 2735.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 4 times to cover 2737 to 2740.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 5 times to cover 2742 to 2746.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 3 times to cover 2748 to 2750.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 4 times to cover 2752 to 2755.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 3 times to cover 2757 to 2759.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 2 times to cover 2761 to 2762.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 3 times to cover 2764 to 2766.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 7 times to cover 2768 to 2774.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 5 times to cover 2776 to 2780.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 3 times to cover 2782 to 2784.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 3 times to cover 2786 to 2788.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 3 times to cover 2790 to 2792.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 3 times to cover 2794 to 2796.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 7 times to cover 2798 to 2804.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 4 times to cover 2806 to 2809.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 3 times to cover 2811 to 2813.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 3 times to cover 2815 to 2817.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 11 times to cover 2819 to 2829.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 6 times to cover 2832 to 2837.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 13 times to cover 2839 to 2851.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 3 times to cover 2853 to 2855.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 8 times to cover 2857 to 2864.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 3 times to cover 2866 to 2868.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 7 times to cover 2870 to 2876.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 4 times to cover 2878 to 2881.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 5 times to cover 2883 to 2887.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 4 times to cover 2889 to 2892.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 7 times to cover 2894 to 2900.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 1 times to cover 2902 to 2902.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 7 times to cover 2904 to 2910.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 3 times to cover 2912 to 2914.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 5 times to cover 2916 to 2920.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 2 times to cover 2922 to 2923.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 3 times to cover 2925 to 2927.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 9 times to cover 2929 to 2937.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 5 times to cover 2940 to 2944.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 11 times to cover 2946 to 2956.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 24 times to cover 2958 to 2981.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 10 times to cover 2983 to 2992.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 7 times to cover 2995 to 3001.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 3 times to cover 3003 to 3005.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 8 times to cover 3008 to 3015.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 5 times to cover 3017 to 3021.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 4 times to cover 3024 to 3027.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 4 times to cover 3029 to 3032.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 4 times to cover 3034 to 3037.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 7 times to cover 3039 to 3045.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 12 times to cover 3047 to 3058.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 7 times to cover 3060 to 3066.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 4 times to cover 3068 to 3071.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 2 times to cover 3073 to 3074.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 3 times to cover 3076 to 3078.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 6 times to cover 3080 to 3085.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 1 times to cover 3087 to 3087.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 8 times to cover 3089 to 3096.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 8 times to cover 3099 to 3106.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 2 times to cover 3108 to 3109.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 4 times to cover 3111 to 3114.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 14 times to cover 3116 to 3129.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 9 times to cover 3131 to 3139.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 4 times to cover 3141 to 3144.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 35 times to cover 3146 to 3180.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 1 times to cover 3182 to 3182.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 12 times to cover 3184 to 3195.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 1 times to cover 3197 to 3197.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 7 times to cover 3199 to 3205.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 7 times to cover 3207 to 3213.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 2 times to cover 3215 to 3216.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 4 times to cover 3218 to 3221.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 8 times to cover 3223 to 3230.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 8 times to cover 3232 to 3239.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 2 times to cover 3242 to 3243.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 1 times to cover 3245 to 3245.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 6 times to cover 3247 to 3252.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 8 times to cover 3254 to 3261.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 8 times to cover 3263 to 3270.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 2 times to cover 3272 to 3273.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 7 times to cover 3275 to 3281.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 7 times to cover 3284 to 3290.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 3 times to cover 3292 to 3294.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 1 times to cover 3296 to 3296.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 11 times to cover 3298 to 3308.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 1 times to cover 3310 to 3310.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 37 times to cover 3312 to 3348.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 8 times to cover 3350 to 3357.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 8 times to cover 3359 to 3366.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 7 times to cover 3368 to 3374.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 3 times to cover 3376 to 3378.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 18 times to cover 3381 to 3398.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 7 times to cover 3400 to 3406.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 4 times to cover 3408 to 3411.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 9 times to cover 3413 to 3421.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 2 times to cover 3423 to 3424.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 9 times to cover 3426 to 3434.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 4 times to cover 3436 to 3439.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 7 times to cover 3441 to 3447.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 4 times to cover 3449 to 3452.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 8 times to cover 3454 to 3461.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 1 times to cover 3463 to 3463.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 7 times to cover 3465 to 3471.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 14 times to cover 3473 to 3486.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 10 times to cover 3488 to 3497.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 4 times to cover 3499 to 3502.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 7 times to cover 3504 to 3510.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 3 times to cover 3512 to 3514.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 3 times to cover 3516 to 3518.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 6 times to cover 3520 to 3525.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 3 times to cover 3527 to 3529.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 1 times to cover 3531 to 3531.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 6 times to cover 3533 to 3538.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 10 times to cover 3540 to 3549.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 5 times to cover 3551 to 3555.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 14 times to cover 3557 to 3570.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 1 times to cover 3572 to 3572.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 8 times to cover 3574 to 3581.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 1 times to cover 3583 to 3583.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 3 times to cover 3585 to 3587.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 7 times to cover 3589 to 3595.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 4 times to cover 3597 to 3600.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 8 times to cover 3602 to 3609.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 4 times to cover 3612 to 3615.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 6 times to cover 3617 to 3622.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 11 times to cover 3624 to 3634.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 5 times to cover 3637 to 3641.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 1 times to cover 3643 to 3643.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 4 times to cover 3645 to 3648.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 4 times to cover 3650 to 3653.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 2 times to cover 3655 to 3656.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 2 times to cover 3658 to 3659.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 9 times to cover 3661 to 3669.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 4 times to cover 3671 to 3674.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 15 times to cover 3676 to 3690.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 4 times to cover 3692 to 3695.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 1 times to cover 3697 to 3697.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 11 times to cover 3699 to 3709.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 4 times to cover 3711 to 3714.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 7 times to cover 3716 to 3722.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 3 times to cover 3724 to 3726.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 3 times to cover 3728 to 3730.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 9 times to cover 3732 to 3740.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 1 times to cover 3742 to 3742.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 3 times to cover 3744 to 3746.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 26 times to cover 3748 to 3773.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 1 times to cover 3775 to 3775.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 2 times to cover 3777 to 3778.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 3 times to cover 3780 to 3782.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 16 times to cover 3784 to 3799.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 1 times to cover 3801 to 3801.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 5 times to cover 3803 to 3807.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 4 times to cover 3809 to 3812.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 3 times to cover 3814 to 3816.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 7 times to cover 3819 to 3825.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 5 times to cover 3827 to 3831.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 3 times to cover 3833 to 3835.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 23 times to cover 3837 to 3859.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 7 times to cover 3861 to 3867.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 2 times to cover 3869 to 3870.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 1 times to cover 3872 to 3872.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 4 times to cover 3874 to 3877.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 2 times to cover 3879 to 3880.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 4 times to cover 3882 to 3885.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 5 times to cover 3887 to 3891.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 4 times to cover 3893 to 3896.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 13 times to cover 3899 to 3911.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 4 times to cover 3913 to 3916.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 5 times to cover 3918 to 3922.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 6 times to cover 3924 to 3929.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 4 times to cover 3931 to 3934.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 4 times to cover 3936 to 3939.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 3 times to cover 3941 to 3943.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 8 times to cover 3945 to 3952.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 3 times to cover 3954 to 3956.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 3 times to cover 3958 to 3960.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 2 times to cover 3962 to 3963.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 3 times to cover 3965 to 3967.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 6 times to cover 3970 to 3975.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 2 times to cover 3977 to 3978.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 8 times to cover 3980 to 3987.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 1 times to cover 3989 to 3989.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 6 times to cover 3991 to 3996.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 5 times to cover 3998 to 4002.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 7 times to cover 4004 to 4010.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 4 times to cover 4012 to 4015.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 8 times to cover 4017 to 4024.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 6 times to cover 4026 to 4031.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 3 times to cover 4033 to 4035.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 2 times to cover 4037 to 4038.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 1 times to cover 4040 to 4040.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 8 times to cover 4042 to 4049.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 4 times to cover 4051 to 4054.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 5 times to cover 4056 to 4060.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 3 times to cover 4062 to 4064.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 3 times to cover 4066 to 4068.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 4 times to cover 4070 to 4073.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 9 times to cover 4075 to 4083.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 5 times to cover 4085 to 4089.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 3 times to cover 4091 to 4093.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 5 times to cover 4095 to 4099.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 3 times to cover 4101 to 4103.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 10 times to cover 4105 to 4114.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 2 times to cover 4116 to 4117.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 1 times to cover 4119 to 4119.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 8 times to cover 4121 to 4128.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 1 times to cover 4130 to 4130.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 7 times to cover 4132 to 4138.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 3 times to cover 4140 to 4142.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 5 times to cover 4144 to 4148.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 8 times to cover 4150 to 4157.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 8 times to cover 4159 to 4166.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 9 times to cover 4168 to 4176.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 6 times to cover 4178 to 4183.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 1 times to cover 4185 to 4185.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 6 times to cover 4187 to 4192.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 5 times to cover 4194 to 4198.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 3 times to cover 4200 to 4202.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 1 times to cover 4204 to 4204.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 4 times to cover 4206 to 4209.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 4 times to cover 4211 to 4214.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 4 times to cover 4216 to 4219.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 1 times to cover 4221 to 4221.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 6 times to cover 4223 to 4228.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 4 times to cover 4230 to 4233.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 3 times to cover 4235 to 4237.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 11 times to cover 4240 to 4250.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 7 times to cover 4252 to 4258.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 11 times to cover 4260 to 4270.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 4 times to cover 4272 to 4275.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 2 times to cover 4277 to 4278.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 10 times to cover 4280 to 4289.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 5 times to cover 4291 to 4295.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 10 times to cover 4298 to 4307.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 3 times to cover 4310 to 4312.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 5 times to cover 4314 to 4318.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 10 times to cover 4320 to 4329.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 12 times to cover 4331 to 4342.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 10 times to cover 4345 to 4354.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 1 times to cover 4356 to 4356.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 1 times to cover 4358 to 4358.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 2 times to cover 4360 to 4361.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 7 times to cover 4363 to 4369.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 1 times to cover 4371 to 4371.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 5 times to cover 4373 to 4377.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 6 times to cover 4379 to 4384.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 3 times to cover 4386 to 4388.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 6 times to cover 4390 to 4395.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 9 times to cover 4397 to 4405.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 2 times to cover 4407 to 4408.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 11 times to cover 4410 to 4420.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 3 times to cover 4422 to 4424.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 7 times to cover 4426 to 4432.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 8 times to cover 4434 to 4441.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 5 times to cover 4444 to 4448.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 1 times to cover 4450 to 4450.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 6 times to cover 4452 to 4457.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 1 times to cover 4459 to 4459.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 6 times to cover 4461 to 4466.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 3 times to cover 4468 to 4470.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 4 times to cover 4472 to 4475.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 6 times to cover 4477 to 4482.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 12 times to cover 4484 to 4495.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 15 times to cover 4497 to 4511.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 5 times to cover 4513 to 4517.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 3 times to cover 4519 to 4521.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 4 times to cover 4523 to 4526.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 37 times to cover 4528 to 4564.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 9 times to cover 4567 to 4575.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 7 times to cover 4577 to 4583.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 3 times to cover 4586 to 4588.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 32 times to cover 4590 to 4621.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 4 times to cover 4623 to 4626.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 6 times to cover 4628 to 4633.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 4 times to cover 4635 to 4638.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 4 times to cover 4640 to 4643.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 12 times to cover 4645 to 4656.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 1 times to cover 4658 to 4658.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 7 times to cover 4660 to 4666.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 3 times to cover 4668 to 4670.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 3 times to cover 4672 to 4674.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 1 times to cover 4676 to 4676.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 8 times to cover 4678 to 4685.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 13 times to cover 4687 to 4699.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 3 times to cover 4701 to 4703.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 5 times to cover 4705 to 4709.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 4 times to cover 4711 to 4714.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 5 times to cover 4716 to 4720.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 3 times to cover 4722 to 4724.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 2 times to cover 4726 to 4727.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 19 times to cover 4730 to 4748.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 10 times to cover 4750 to 4759.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 1 times to cover 4761 to 4761.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 8 times to cover 4763 to 4770.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 6 times to cover 4772 to 4777.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 2 times to cover 4779 to 4780.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 1 times to cover 4783 to 4783.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 5 times to cover 4785 to 4789.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 6 times to cover 4792 to 4797.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 6 times to cover 4799 to 4804.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 5 times to cover 4806 to 4810.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 4 times to cover 4812 to 4815.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 6 times to cover 4817 to 4822.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 1 times to cover 4824 to 4824.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 4 times to cover 4826 to 4829.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 1 times to cover 4831 to 4831.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 5 times to cover 4833 to 4837.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 4 times to cover 4840 to 4843.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 4 times to cover 4845 to 4848.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 3 times to cover 4850 to 4852.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 13 times to cover 4854 to 4866.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 4 times to cover 4868 to 4871.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 6 times to cover 4873 to 4878.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 3 times to cover 4880 to 4882.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 2 times to cover 4884 to 4885.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 3 times to cover 4887 to 4889.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 1 times to cover 4891 to 4891.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 5 times to cover 4893 to 4897.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 6 times to cover 4900 to 4905.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 2 times to cover 4907 to 4908.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 8 times to cover 4910 to 4917.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 5 times to cover 4919 to 4923.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 1 times to cover 4925 to 4925.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 14 times to cover 4927 to 4940.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 6 times to cover 4942 to 4947.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 3 times to cover 4949 to 4951.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 3 times to cover 4953 to 4955.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 8 times to cover 4957 to 4964.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 1 times to cover 4966 to 4966.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 2 times to cover 4968 to 4969.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 10 times to cover 4971 to 4980.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 1 times to cover 4982 to 4982.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 2 times to cover 4984 to 4985.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 3 times to cover 4987 to 4989.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 3 times to cover 4991 to 4993.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 1 times to cover 4995 to 4995.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 5 times to cover 4997 to 5001.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 9 times to cover 5003 to 5011.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 6 times to cover 5013 to 5018.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 1 times to cover 5020 to 5020.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 9 times to cover 5022 to 5030.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 1 times to cover 5032 to 5032.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 2 times to cover 5034 to 5035.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 4 times to cover 5037 to 5040.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 6 times to cover 5042 to 5047.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 3 times to cover 5049 to 5051.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 3 times to cover 5053 to 5055.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 4 times to cover 5057 to 5060.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 6 times to cover 5062 to 5067.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 6 times to cover 5069 to 5074.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 4 times to cover 5076 to 5079.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 3 times to cover 5081 to 5083.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 4 times to cover 5085 to 5088.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 4 times to cover 5090 to 5093.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 2 times to cover 5095 to 5096.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 6 times to cover 5098 to 5103.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 7 times to cover 5105 to 5111.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 4 times to cover 5114 to 5117.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 4 times to cover 5119 to 5122.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 10 times to cover 5124 to 5133.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 5 times to cover 5135 to 5139.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 2 times to cover 5141 to 5142.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 7 times to cover 5144 to 5150.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 14 times to cover 5152 to 5165.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 1 times to cover 5167 to 5167.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 6 times to cover 5169 to 5174.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 3 times to cover 5176 to 5178.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 3 times to cover 5180 to 5182.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 28 times to cover 5184 to 5211.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 1 times to cover 5213 to 5213.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 13 times to cover 5215 to 5227.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 10 times to cover 5229 to 5238.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 7 times to cover 5240 to 5246.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 4 times to cover 5248 to 5251.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 6 times to cover 5253 to 5258.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 4 times to cover 5261 to 5264.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 6 times to cover 5266 to 5271.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 2 times to cover 5273 to 5274.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 9 times to cover 5276 to 5284.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 1 times to cover 5286 to 5286.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 10 times to cover 5288 to 5297.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 2 times to cover 5299 to 5300.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 6 times to cover 5302 to 5307.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 6 times to cover 5310 to 5315.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 6 times to cover 5317 to 5322.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 3 times to cover 5324 to 5326.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 4 times to cover 5329 to 5332.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 5 times to cover 5334 to 5338.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 8 times to cover 5340 to 5347.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 5 times to cover 5349 to 5353.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 9 times to cover 5355 to 5363.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 1 times to cover 5365 to 5365.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 2 times to cover 5367 to 5368.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 6 times to cover 5370 to 5375.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 3 times to cover 5377 to 5379.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 5 times to cover 5381 to 5385.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 7 times to cover 5388 to 5394.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 2 times to cover 5396 to 5397.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 7 times to cover 5399 to 5405.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 2 times to cover 5407 to 5408.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 4 times to cover 5410 to 5413.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 5 times to cover 5415 to 5419.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 3 times to cover 5421 to 5423.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 6 times to cover 5425 to 5430.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 5 times to cover 5432 to 5436.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 6 times to cover 5438 to 5443.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 3 times to cover 5445 to 5447.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 3 times to cover 5449 to 5451.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 11 times to cover 5453 to 5463.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 1 times to cover 5465 to 5465.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 6 times to cover 5467 to 5472.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 3 times to cover 5474 to 5476.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 3 times to cover 5478 to 5480.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 7 times to cover 5482 to 5488.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 7 times to cover 5490 to 5496.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 6 times to cover 5498 to 5503.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 4 times to cover 5505 to 5508.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 3 times to cover 5510 to 5512.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 3 times to cover 5514 to 5516.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 2 times to cover 5518 to 5519.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 9 times to cover 5521 to 5529.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 2 times to cover 5531 to 5532.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 5 times to cover 5534 to 5538.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 3 times to cover 5540 to 5542.
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 5 times to cover 5544 to 5548.
+[INFO] Ctrl+C received — finalising video…
+[WARNING] Buffer full. Gap detected! Duplicating previous frame 5 times to cover 5550 to 5554.
+[INFO] Video saved — 10006 frames written, 0 frames still in buffer flushed.
+[INFO] Output: output/output_1775999016.mp4
+[INFO] Writing video → output/output_1776001384.mp4  (1280x720 @ 25 fps)
+[INFO] Collector started — Ctrl+C to stop and finalise.
+[INFO] Video saved — 0 frames written, 0 frames still in buffer flushed.
+[INFO] Output: output/output_1776001384.mp4
+[INFO] Writing video → output/output_1776001398.mp4  (1280x720 @ 25 fps)
+[INFO] Collector started — Ctrl+C to stop and finalise.
+[INFO] Video saved — 0 frames written, 0 frames still in buffer flushed.
+[INFO] Output: output/output_1776001398.mp4
+[INFO] Writing video → output/output_1776001480.mp4  (1280x720 @ 25 fps)
+[INFO] Collector started — Ctrl+C to stop and finalise.
+[INFO] Ctrl+C received — finalising video…
+[INFO] Video saved — 1 frames written, 4536 frames still in buffer flushed.
+[INFO] Output: output/output_1776001480.mp4
+[INFO] Writing video → output/output_1776001733.mp4  (1280x720 @ 25 fps)
+[INFO] Collector started — Ctrl+C to stop and finalise.
+[INFO] Ctrl+C received — finalising video…
+[INFO] Video saved — 1 frames written, 1359 frames still in buffer flushed.
+[INFO] Output: output/output_1776001733.mp4
+[INFO] Writing video → output/output_1776002498.mp4  (1280x720 @ 25 fps)
+[INFO] Collector started — Ctrl+C to stop and finalise.
+[WARNING] Buffer full. Gap detected! Skipping 3514 to 3514.
+[WARNING] Buffer full. Gap detected! Skipping 3516 to 3518.
+[WARNING] Buffer full. Gap detected! Skipping 3520 to 3522.
+[WARNING] Buffer full. Gap detected! Skipping 3524 to 3525.
+[WARNING] Buffer full. Gap detected! Skipping 3529 to 3533.
+[WARNING] Buffer full. Gap detected! Skipping 3535 to 3536.
+[WARNING] Buffer full. Gap detected! Skipping 3538 to 3539.
+[WARNING] Buffer full. Gap detected! Skipping 3541 to 3542.
+[WARNING] Buffer full. Gap detected! Skipping 3547 to 3550.
+[WARNING] Buffer full. Gap detected! Skipping 3556 to 3556.
+[WARNING] Buffer full. Gap detected! Skipping 3558 to 3559.
+[WARNING] Buffer full. Gap detected! Skipping 3561 to 3562.
+[WARNING] Buffer full. Gap detected! Skipping 3565 to 3566.
+[WARNING] Buffer full. Gap detected! Skipping 3571 to 3571.
+[WARNING] Buffer full. Gap detected! Skipping 3573 to 3573.
+[WARNING] Buffer full. Gap detected! Skipping 3575 to 3576.
+[WARNING] Buffer full. Gap detected! Skipping 3580 to 3580.
+[WARNING] Buffer full. Gap detected! Skipping 3584 to 3591.
+[WARNING] Buffer full. Gap detected! Skipping 3593 to 3593.
+[WARNING] Buffer full. Gap detected! Skipping 3596 to 3599.
+[WARNING] Buffer full. Gap detected! Skipping 3601 to 3601.
+[WARNING] Buffer full. Gap detected! Skipping 3603 to 3604.
+[WARNING] Buffer full. Gap detected! Skipping 3609 to 3610.
+[WARNING] Buffer full. Gap detected! Skipping 3612 to 3612.
+[WARNING] Buffer full. Gap detected! Skipping 3614 to 3614.
+[WARNING] Buffer full. Gap detected! Skipping 3617 to 3617.
+[WARNING] Buffer full. Gap detected! Skipping 3619 to 3619.
+[WARNING] Buffer full. Gap detected! Skipping 3621 to 3624.
+[WARNING] Buffer full. Gap detected! Skipping 3627 to 3630.
+[WARNING] Buffer full. Gap detected! Skipping 3632 to 3633.
+[WARNING] Buffer full. Gap detected! Skipping 3636 to 3636.
+[WARNING] Buffer full. Gap detected! Skipping 3640 to 3640.
+[WARNING] Buffer full. Gap detected! Skipping 3642 to 3644.
+[WARNING] Buffer full. Gap detected! Skipping 3646 to 3646.
+[WARNING] Buffer full. Gap detected! Skipping 3648 to 3648.
+[WARNING] Buffer full. Gap detected! Skipping 3650 to 3651.
+[WARNING] Buffer full. Gap detected! Skipping 3654 to 3654.
+[WARNING] Buffer full. Gap detected! Skipping 3658 to 3658.
+[WARNING] Buffer full. Gap detected! Skipping 3661 to 3766.
+[WARNING] Buffer full. Gap detected! Skipping 3769 to 3770.
+[WARNING] Buffer full. Gap detected! Skipping 3775 to 3776.
+[WARNING] Buffer full. Gap detected! Skipping 3780 to 3780.
+[WARNING] Buffer full. Gap detected! Skipping 3782 to 3782.
+[WARNING] Buffer full. Gap detected! Skipping 3784 to 3787.
+[WARNING] Buffer full. Gap detected! Skipping 3789 to 3789.
+[WARNING] Buffer full. Gap detected! Skipping 3792 to 3792.
+[WARNING] Buffer full. Gap detected! Skipping 3796 to 3798.
+[WARNING] Buffer full. Gap detected! Skipping 3800 to 3800.
+[WARNING] Buffer full. Gap detected! Skipping 3803 to 3803.
+[WARNING] Buffer full. Gap detected! Skipping 3805 to 3808.
+[WARNING] Buffer full. Gap detected! Skipping 3812 to 3812.
+[WARNING] Buffer full. Gap detected! Skipping 3814 to 3815.
+[WARNING] Buffer full. Gap detected! Skipping 3818 to 3820.
+[WARNING] Buffer full. Gap detected! Skipping 3822 to 3824.
+[WARNING] Buffer full. Gap detected! Skipping 3826 to 3826.
+[WARNING] Buffer full. Gap detected! Skipping 3828 to 3829.
+[WARNING] Buffer full. Gap detected! Skipping 3831 to 3834.
+[WARNING] Buffer full. Gap detected! Skipping 3836 to 3836.
+[WARNING] Buffer full. Gap detected! Skipping 3839 to 3840.
+[WARNING] Buffer full. Gap detected! Skipping 3842 to 3843.
+[WARNING] Buffer full. Gap detected! Skipping 3846 to 3846.
+[WARNING] Buffer full. Gap detected! Skipping 3848 to 3849.
+[WARNING] Buffer full. Gap detected! Skipping 3852 to 3854.
+[WARNING] Buffer full. Gap detected! Skipping 3856 to 3856.
+[WARNING] Buffer full. Gap detected! Skipping 3858 to 3858.
+[WARNING] Buffer full. Gap detected! Skipping 3863 to 3863.
+[WARNING] Buffer full. Gap detected! Skipping 3865 to 3865.
+[WARNING] Buffer full. Gap detected! Skipping 3868 to 3869.
+[WARNING] Buffer full. Gap detected! Skipping 3871 to 3872.
+[WARNING] Buffer full. Gap detected! Skipping 3875 to 3875.
+[WARNING] Buffer full. Gap detected! Skipping 3878 to 3878.
+[WARNING] Buffer full. Gap detected! Skipping 3880 to 3884.
+[WARNING] Buffer full. Gap detected! Skipping 3887 to 3887.
+[WARNING] Buffer full. Gap detected! Skipping 3889 to 3889.
+[WARNING] Buffer full. Gap detected! Skipping 3893 to 3898.
+[WARNING] Buffer full. Gap detected! Skipping 3903 to 3903.
+[WARNING] Buffer full. Gap detected! Skipping 3905 to 3906.
+[WARNING] Buffer full. Gap detected! Skipping 3909 to 3909.
+[WARNING] Buffer full. Gap detected! Skipping 3911 to 3911.
+[WARNING] Buffer full. Gap detected! Skipping 3913 to 3913.
+[WARNING] Buffer full. Gap detected! Skipping 3916 to 3916.
+[WARNING] Buffer full. Gap detected! Skipping 3918 to 3919.
+[WARNING] Buffer full. Gap detected! Skipping 3922 to 3923.
+[WARNING] Buffer full. Gap detected! Skipping 3925 to 3927.
+[WARNING] Buffer full. Gap detected! Skipping 3929 to 3930.
+[WARNING] Buffer full. Gap detected! Skipping 3932 to 3937.
+[WARNING] Buffer full. Gap detected! Skipping 3939 to 3940.
+[WARNING] Buffer full. Gap detected! Skipping 3944 to 3944.
+[WARNING] Buffer full. Gap detected! Skipping 3946 to 3947.
+[WARNING] Buffer full. Gap detected! Skipping 3949 to 3953.
+[WARNING] Buffer full. Gap detected! Skipping 3956 to 3956.
+[WARNING] Buffer full. Gap detected! Skipping 3960 to 3960.
+[WARNING] Buffer full. Gap detected! Skipping 3962 to 3962.
+[WARNING] Buffer full. Gap detected! Skipping 3967 to 3967.
+[WARNING] Buffer full. Gap detected! Skipping 3970 to 3976.
+[WARNING] Buffer full. Gap detected! Skipping 3978 to 3979.
+[WARNING] Buffer full. Gap detected! Skipping 3981 to 3988.
+[WARNING] Buffer full. Gap detected! Skipping 3994 to 3996.
+[WARNING] Buffer full. Gap detected! Skipping 3999 to 4000.
+[WARNING] Buffer full. Gap detected! Skipping 4002 to 4002.
+[WARNING] Buffer full. Gap detected! Skipping 4005 to 4007.
+[WARNING] Buffer full. Gap detected! Skipping 4010 to 4011.
+[WARNING] Buffer full. Gap detected! Skipping 4013 to 4013.
+[WARNING] Buffer full. Gap detected! Skipping 4015 to 4015.
+[WARNING] Buffer full. Gap detected! Skipping 4017 to 4019.
+[WARNING] Buffer full. Gap detected! Skipping 4021 to 4021.
+[WARNING] Buffer full. Gap detected! Skipping 4025 to 4026.
+[WARNING] Buffer full. Gap detected! Skipping 4029 to 4029.
+[WARNING] Buffer full. Gap detected! Skipping 4031 to 4034.
+[WARNING] Buffer full. Gap detected! Skipping 4036 to 4037.
+[WARNING] Buffer full. Gap detected! Skipping 4040 to 4041.
+[WARNING] Buffer full. Gap detected! Skipping 4045 to 4047.
+[WARNING] Buffer full. Gap detected! Skipping 4049 to 4049.
+[WARNING] Buffer full. Gap detected! Skipping 4052 to 4053.
+[WARNING] Buffer full. Gap detected! Skipping 4055 to 4055.
+[WARNING] Buffer full. Gap detected! Skipping 4057 to 4058.
+[WARNING] Buffer full. Gap detected! Skipping 4060 to 4060.
+[WARNING] Buffer full. Gap detected! Skipping 4062 to 4062.
+[WARNING] Buffer full. Gap detected! Skipping 4066 to 4067.
+[WARNING] Buffer full. Gap detected! Skipping 4071 to 4071.
+[WARNING] Buffer full. Gap detected! Skipping 4073 to 4074.
+[WARNING] Buffer full. Gap detected! Skipping 4076 to 4078.
+[WARNING] Buffer full. Gap detected! Skipping 4080 to 4081.
+[WARNING] Buffer full. Gap detected! Skipping 4086 to 4086.
+[WARNING] Buffer full. Gap detected! Skipping 4090 to 4093.
+[WARNING] Buffer full. Gap detected! Skipping 4097 to 4098.
+[WARNING] Buffer full. Gap detected! Skipping 4102 to 4102.
+[WARNING] Buffer full. Gap detected! Skipping 4105 to 4105.
+[WARNING] Buffer full. Gap detected! Skipping 4107 to 4109.
+[WARNING] Buffer full. Gap detected! Skipping 4111 to 4111.
+[WARNING] Buffer full. Gap detected! Skipping 4117 to 4117.
+[WARNING] Buffer full. Gap detected! Skipping 4119 to 4124.
+[WARNING] Buffer full. Gap detected! Skipping 4126 to 4126.
+[WARNING] Buffer full. Gap detected! Skipping 4128 to 4128.
+[WARNING] Buffer full. Gap detected! Skipping 4130 to 4130.
+[WARNING] Buffer full. Gap detected! Skipping 4137 to 4138.
+[WARNING] Buffer full. Gap detected! Skipping 4142 to 4142.
+[WARNING] Buffer full. Gap detected! Skipping 4146 to 4147.
+[WARNING] Buffer full. Gap detected! Skipping 4150 to 4151.
+[WARNING] Buffer full. Gap detected! Skipping 4154 to 4154.
+[WARNING] Buffer full. Gap detected! Skipping 4156 to 4158.
+[WARNING] Buffer full. Gap detected! Skipping 4160 to 4161.
+[WARNING] Buffer full. Gap detected! Skipping 4164 to 4165.
+[WARNING] Buffer full. Gap detected! Skipping 4168 to 4170.
+[WARNING] Buffer full. Gap detected! Skipping 4172 to 4172.
+[WARNING] Buffer full. Gap detected! Skipping 4175 to 4175.
+[WARNING] Buffer full. Gap detected! Skipping 4177 to 4181.
+[WARNING] Buffer full. Gap detected! Skipping 4184 to 4184.
+[WARNING] Buffer full. Gap detected! Skipping 4186 to 4187.
+[WARNING] Buffer full. Gap detected! Skipping 4192 to 4194.
+[WARNING] Buffer full. Gap detected! Skipping 4197 to 4201.
+[WARNING] Buffer full. Gap detected! Skipping 4203 to 4203.
+[WARNING] Buffer full. Gap detected! Skipping 4205 to 4205.
+[WARNING] Buffer full. Gap detected! Skipping 4209 to 4209.
+[WARNING] Buffer full. Gap detected! Skipping 4213 to 4216.
+[WARNING] Buffer full. Gap detected! Skipping 4218 to 4219.
+[WARNING] Buffer full. Gap detected! Skipping 4222 to 4223.
+[WARNING] Buffer full. Gap detected! Skipping 4229 to 4229.
+[WARNING] Buffer full. Gap detected! Skipping 4233 to 4235.
+[WARNING] Buffer full. Gap detected! Skipping 4238 to 4239.
+[WARNING] Buffer full. Gap detected! Skipping 4243 to 4245.
+[WARNING] Buffer full. Gap detected! Skipping 4247 to 4248.
+[WARNING] Buffer full. Gap detected! Skipping 4252 to 4253.
+[WARNING] Buffer full. Gap detected! Skipping 4255 to 4255.
+[WARNING] Buffer full. Gap detected! Skipping 4258 to 4260.
+[WARNING] Buffer full. Gap detected! Skipping 4262 to 4262.
+[WARNING] Buffer full. Gap detected! Skipping 4266 to 4269.
+[WARNING] Buffer full. Gap detected! Skipping 4275 to 4276.
+[WARNING] Buffer full. Gap detected! Skipping 4278 to 4281.
+[WARNING] Buffer full. Gap detected! Skipping 4283 to 4283.
+[WARNING] Buffer full. Gap detected! Skipping 4287 to 4289.
+[WARNING] Buffer full. Gap detected! Skipping 4291 to 4291.
+[WARNING] Buffer full. Gap detected! Skipping 4293 to 4293.
+[WARNING] Buffer full. Gap detected! Skipping 4296 to 4296.
+[WARNING] Buffer full. Gap detected! Skipping 4303 to 4304.
+[WARNING] Buffer full. Gap detected! Skipping 4306 to 4306.
+[WARNING] Buffer full. Gap detected! Skipping 4308 to 4309.
+[WARNING] Buffer full. Gap detected! Skipping 4315 to 4317.
+[WARNING] Buffer full. Gap detected! Skipping 4319 to 4321.
+[WARNING] Buffer full. Gap detected! Skipping 4325 to 4328.
+[WARNING] Buffer full. Gap detected! Skipping 4330 to 4333.
+[WARNING] Buffer full. Gap detected! Skipping 4336 to 4336.
+[WARNING] Buffer full. Gap detected! Skipping 4338 to 4338.
+[WARNING] Buffer full. Gap detected! Skipping 4343 to 4344.
+[WARNING] Buffer full. Gap detected! Skipping 4346 to 4346.
+[WARNING] Buffer full. Gap detected! Skipping 4348 to 4348.
+[WARNING] Buffer full. Gap detected! Skipping 4350 to 4350.
+[WARNING] Buffer full. Gap detected! Skipping 4352 to 4353.
+[WARNING] Buffer full. Gap detected! Skipping 4355 to 4355.
+[WARNING] Buffer full. Gap detected! Skipping 4361 to 4362.
+[WARNING] Buffer full. Gap detected! Skipping 4364 to 4364.
+[WARNING] Buffer full. Gap detected! Skipping 4366 to 4367.
+[WARNING] Buffer full. Gap detected! Skipping 4372 to 4372.
+[WARNING] Buffer full. Gap detected! Skipping 4374 to 4375.
+[WARNING] Buffer full. Gap detected! Skipping 4380 to 4381.
+[WARNING] Buffer full. Gap detected! Skipping 4385 to 4385.
+[WARNING] Buffer full. Gap detected! Skipping 4387 to 4388.
+[WARNING] Buffer full. Gap detected! Skipping 4390 to 4390.
+[WARNING] Buffer full. Gap detected! Skipping 4392 to 4393.
+[WARNING] Buffer full. Gap detected! Skipping 4395 to 4395.
+[WARNING] Buffer full. Gap detected! Skipping 4398 to 4398.
+[WARNING] Buffer full. Gap detected! Skipping 4400 to 4401.
+[WARNING] Buffer full. Gap detected! Skipping 4404 to 4404.
+[WARNING] Buffer full. Gap detected! Skipping 4406 to 4407.
+[WARNING] Buffer full. Gap detected! Skipping 4410 to 4410.
+[WARNING] Buffer full. Gap detected! Skipping 4412 to 4412.
+[WARNING] Buffer full. Gap detected! Skipping 4414 to 4414.
+[WARNING] Buffer full. Gap detected! Skipping 4417 to 4417.
+[WARNING] Buffer full. Gap detected! Skipping 4420 to 4420.
+[WARNING] Buffer full. Gap detected! Skipping 4425 to 4425.
+[WARNING] Buffer full. Gap detected! Skipping 4428 to 4428.
+[WARNING] Buffer full. Gap detected! Skipping 4430 to 4431.
+[WARNING] Buffer full. Gap detected! Skipping 4433 to 4433.
+[WARNING] Buffer full. Gap detected! Skipping 4435 to 4436.
+[WARNING] Buffer full. Gap detected! Skipping 4438 to 4438.
+[WARNING] Buffer full. Gap detected! Skipping 4440 to 4441.
+[WARNING] Buffer full. Gap detected! Skipping 4443 to 4444.
+[WARNING] Buffer full. Gap detected! Skipping 4446 to 4450.
+[WARNING] Buffer full. Gap detected! Skipping 4452 to 4452.
+[WARNING] Buffer full. Gap detected! Skipping 4454 to 4456.
+[WARNING] Buffer full. Gap detected! Skipping 4458 to 4458.
+[WARNING] Buffer full. Gap detected! Skipping 4461 to 4463.
+[WARNING] Buffer full. Gap detected! Skipping 4466 to 4466.
+[WARNING] Buffer full. Gap detected! Skipping 4468 to 4471.
+[WARNING] Buffer full. Gap detected! Skipping 4475 to 4475.
+[WARNING] Buffer full. Gap detected! Skipping 4477 to 4477.
+[WARNING] Buffer full. Gap detected! Skipping 4479 to 4480.
+[WARNING] Buffer full. Gap detected! Skipping 4482 to 4482.
+[WARNING] Buffer full. Gap detected! Skipping 4484 to 4484.
+[WARNING] Buffer full. Gap detected! Skipping 4488 to 4490.
+[WARNING] Buffer full. Gap detected! Skipping 4493 to 4493.
+[WARNING] Buffer full. Gap detected! Skipping 4495 to 4496.
+[WARNING] Buffer full. Gap detected! Skipping 4498 to 4498.
+[WARNING] Buffer full. Gap detected! Skipping 4503 to 4503.
+[WARNING] Buffer full. Gap detected! Skipping 4505 to 4505.
+[WARNING] Buffer full. Gap detected! Skipping 4508 to 4508.
+[WARNING] Buffer full. Gap detected! Skipping 4510 to 4510.
+[WARNING] Buffer full. Gap detected! Skipping 4515 to 4516.
+[WARNING] Buffer full. Gap detected! Skipping 4520 to 4521.
+[WARNING] Buffer full. Gap detected! Skipping 4524 to 4525.
+[WARNING] Buffer full. Gap detected! Skipping 4527 to 4529.
+[WARNING] Buffer full. Gap detected! Skipping 4532 to 4533.
+[WARNING] Buffer full. Gap detected! Skipping 4535 to 4535.
+[WARNING] Buffer full. Gap detected! Skipping 4537 to 4539.
+[WARNING] Buffer full. Gap detected! Skipping 4541 to 4541.
+[WARNING] Buffer full. Gap detected! Skipping 4544 to 4544.
+[WARNING] Buffer full. Gap detected! Skipping 4546 to 4547.
+[WARNING] Buffer full. Gap detected! Skipping 4550 to 4550.
+[WARNING] Buffer full. Gap detected! Skipping 4552 to 4552.
+[WARNING] Buffer full. Gap detected! Skipping 4554 to 4556.
+[WARNING] Buffer full. Gap detected! Skipping 4560 to 4561.
+[WARNING] Buffer full. Gap detected! Skipping 4563 to 4566.
+[WARNING] Buffer full. Gap detected! Skipping 4570 to 4571.
+[WARNING] Buffer full. Gap detected! Skipping 4577 to 4578.
+[WARNING] Buffer full. Gap detected! Skipping 4580 to 4580.
+[WARNING] Buffer full. Gap detected! Skipping 4583 to 4583.
+[WARNING] Buffer full. Gap detected! Skipping 4585 to 4586.
+[WARNING] Buffer full. Gap detected! Skipping 4588 to 4588.
+[WARNING] Buffer full. Gap detected! Skipping 4591 to 4593.
+[WARNING] Buffer full. Gap detected! Skipping 4595 to 4597.
+[WARNING] Buffer full. Gap detected! Skipping 4600 to 4600.
+[WARNING] Buffer full. Gap detected! Skipping 4604 to 4605.
+[WARNING] Buffer full. Gap detected! Skipping 4607 to 4608.
+[WARNING] Buffer full. Gap detected! Skipping 4611 to 4611.
+[WARNING] Buffer full. Gap detected! Skipping 4616 to 4620.
+[WARNING] Buffer full. Gap detected! Skipping 4624 to 4627.
+[WARNING] Buffer full. Gap detected! Skipping 4630 to 4631.
+[WARNING] Buffer full. Gap detected! Skipping 4634 to 4636.
+[WARNING] Buffer full. Gap detected! Skipping 4638 to 4641.
+[WARNING] Buffer full. Gap detected! Skipping 4644 to 4644.
+[WARNING] Buffer full. Gap detected! Skipping 4646 to 4646.
+[WARNING] Buffer full. Gap detected! Skipping 4649 to 4650.
+[WARNING] Buffer full. Gap detected! Skipping 4653 to 4654.
+[WARNING] Buffer full. Gap detected! Skipping 4657 to 4659.
+[WARNING] Buffer full. Gap detected! Skipping 4661 to 4662.
+[WARNING] Buffer full. Gap detected! Skipping 4664 to 4666.
+[WARNING] Buffer full. Gap detected! Skipping 4672 to 4672.
+[WARNING] Buffer full. Gap detected! Skipping 4675 to 4678.
+[WARNING] Buffer full. Gap detected! Skipping 4682 to 4682.
+[WARNING] Buffer full. Gap detected! Skipping 4691 to 4691.
+[WARNING] Buffer full. Gap detected! Skipping 4695 to 4697.
+[WARNING] Buffer full. Gap detected! Skipping 4699 to 4699.
+[WARNING] Buffer full. Gap detected! Skipping 4701 to 4701.
+[WARNING] Buffer full. Gap detected! Skipping 4704 to 4705.
+[WARNING] Buffer full. Gap detected! Skipping 4707 to 4707.
+[WARNING] Buffer full. Gap detected! Skipping 4709 to 4709.
+[WARNING] Buffer full. Gap detected! Skipping 4717 to 4718.
+[WARNING] Buffer full. Gap detected! Skipping 4720 to 4720.
+[WARNING] Buffer full. Gap detected! Skipping 4725 to 4725.
+[WARNING] Buffer full. Gap detected! Skipping 4729 to 4730.
+[WARNING] Buffer full. Gap detected! Skipping 4733 to 4733.
+[WARNING] Buffer full. Gap detected! Skipping 4735 to 4736.
+[WARNING] Buffer full. Gap detected! Skipping 4739 to 4740.
+[WARNING] Buffer full. Gap detected! Skipping 4743 to 4743.
+[WARNING] Buffer full. Gap detected! Skipping 4746 to 4746.
+[WARNING] Buffer full. Gap detected! Skipping 4751 to 4751.
+[WARNING] Buffer full. Gap detected! Skipping 4753 to 4753.
+[WARNING] Buffer full. Gap detected! Skipping 4755 to 4755.
+[WARNING] Buffer full. Gap detected! Skipping 4757 to 4757.
+[WARNING] Buffer full. Gap detected! Skipping 4760 to 4760.
+[WARNING] Buffer full. Gap detected! Skipping 4763 to 4763.
+[WARNING] Buffer full. Gap detected! Skipping 4765 to 4769.
+[WARNING] Buffer full. Gap detected! Skipping 4772 to 4777.
+[WARNING] Buffer full. Gap detected! Skipping 4780 to 4781.
+[WARNING] Buffer full. Gap detected! Skipping 4783 to 4786.
+[WARNING] Buffer full. Gap detected! Skipping 4791 to 4793.
+[WARNING] Buffer full. Gap detected! Skipping 4797 to 4797.
+[WARNING] Buffer full. Gap detected! Skipping 4800 to 4802.
+[WARNING] Buffer full. Gap detected! Skipping 4806 to 4807.
+[WARNING] Buffer full. Gap detected! Skipping 4809 to 4809.
+[WARNING] Buffer full. Gap detected! Skipping 4811 to 4812.
+[WARNING] Buffer full. Gap detected! Skipping 4815 to 4815.
+[WARNING] Buffer full. Gap detected! Skipping 4818 to 4820.
+[WARNING] Buffer full. Gap detected! Skipping 4829 to 4830.
+[WARNING] Buffer full. Gap detected! Skipping 4835 to 4842.
+[WARNING] Buffer full. Gap detected! Skipping 4844 to 4844.
+[WARNING] Buffer full. Gap detected! Skipping 4846 to 4847.
+[WARNING] Buffer full. Gap detected! Skipping 4852 to 4853.
+[WARNING] Buffer full. Gap detected! Skipping 4855 to 4856.
+[WARNING] Buffer full. Gap detected! Skipping 4862 to 4864.
+[WARNING] Buffer full. Gap detected! Skipping 4866 to 4867.
+[WARNING] Buffer full. Gap detected! Skipping 4872 to 4872.
+[WARNING] Buffer full. Gap detected! Skipping 4875 to 4875.
+[WARNING] Buffer full. Gap detected! Skipping 4878 to 4878.
+[WARNING] Buffer full. Gap detected! Skipping 4880 to 4880.
+[WARNING] Buffer full. Gap detected! Skipping 4882 to 4882.
+[WARNING] Buffer full. Gap detected! Skipping 4884 to 4885.
+[WARNING] Buffer full. Gap detected! Skipping 4887 to 4888.
+[WARNING] Buffer full. Gap detected! Skipping 4890 to 4890.
+[WARNING] Buffer full. Gap detected! Skipping 4895 to 4895.
+[WARNING] Buffer full. Gap detected! Skipping 4897 to 4897.
+[WARNING] Buffer full. Gap detected! Skipping 4899 to 4899.
+[WARNING] Buffer full. Gap detected! Skipping 4904 to 4905.
+[WARNING] Buffer full. Gap detected! Skipping 4907 to 4907.
+[WARNING] Buffer full. Gap detected! Skipping 4909 to 4910.
+[WARNING] Buffer full. Gap detected! Skipping 4912 to 4912.
+[WARNING] Buffer full. Gap detected! Skipping 4916 to 4917.
+[WARNING] Buffer full. Gap detected! Skipping 4920 to 4922.
+[WARNING] Buffer full. Gap detected! Skipping 4925 to 4925.
+[WARNING] Buffer full. Gap detected! Skipping 4928 to 4929.
+[WARNING] Buffer full. Gap detected! Skipping 4932 to 4932.
+[WARNING] Buffer full. Gap detected! Skipping 4936 to 4941.
+[WARNING] Buffer full. Gap detected! Skipping 4943 to 4944.
+[WARNING] Buffer full. Gap detected! Skipping 4946 to 4946.
+[WARNING] Buffer full. Gap detected! Skipping 4949 to 4949.
+[WARNING] Buffer full. Gap detected! Skipping 4951 to 4952.
+[WARNING] Buffer full. Gap detected! Skipping 4954 to 4957.
+[WARNING] Buffer full. Gap detected! Skipping 4959 to 4959.
+[WARNING] Buffer full. Gap detected! Skipping 4961 to 4961.
+[WARNING] Buffer full. Gap detected! Skipping 4965 to 4965.
+[WARNING] Buffer full. Gap detected! Skipping 4968 to 4969.
+[WARNING] Buffer full. Gap detected! Skipping 4971 to 4974.
+[WARNING] Buffer full. Gap detected! Skipping 4976 to 4982.
+[WARNING] Buffer full. Gap detected! Skipping 4984 to 4985.
+[WARNING] Buffer full. Gap detected! Skipping 4988 to 4993.
+[WARNING] Buffer full. Gap detected! Skipping 4995 to 4995.
+[WARNING] Buffer full. Gap detected! Skipping 4999 to 4999.
+[WARNING] Buffer full. Gap detected! Skipping 5001 to 5003.
+[WARNING] Buffer full. Gap detected! Skipping 5006 to 5009.
+[WARNING] Buffer full. Gap detected! Skipping 5012 to 5012.
+[WARNING] Buffer full. Gap detected! Skipping 5016 to 5017.
+[WARNING] Buffer full. Gap detected! Skipping 5019 to 5019.
+[WARNING] Buffer full. Gap detected! Skipping 5021 to 5021.
+[WARNING] Buffer full. Gap detected! Skipping 5024 to 5024.
+[WARNING] Buffer full. Gap detected! Skipping 5028 to 5029.
+[WARNING] Buffer full. Gap detected! Skipping 5031 to 5031.
+[WARNING] Buffer full. Gap detected! Skipping 5034 to 5036.
+[WARNING] Buffer full. Gap detected! Skipping 5038 to 5039.
+[WARNING] Buffer full. Gap detected! Skipping 5042 to 5049.
+[WARNING] Buffer full. Gap detected! Skipping 5053 to 5053.
+[WARNING] Buffer full. Gap detected! Skipping 5056 to 5056.
+[WARNING] Buffer full. Gap detected! Skipping 5059 to 5059.
+[WARNING] Buffer full. Gap detected! Skipping 5063 to 5066.
+[WARNING] Buffer full. Gap detected! Skipping 5074 to 5074.
+[WARNING] Buffer full. Gap detected! Skipping 5076 to 5078.
+[WARNING] Buffer full. Gap detected! Skipping 5080 to 5080.
+[WARNING] Buffer full. Gap detected! Skipping 5082 to 5082.
+[WARNING] Buffer full. Gap detected! Skipping 5084 to 5084.
+[WARNING] Buffer full. Gap detected! Skipping 5086 to 5088.
+[WARNING] Buffer full. Gap detected! Skipping 5092 to 5093.
+[WARNING] Buffer full. Gap detected! Skipping 5095 to 5096.
+[WARNING] Buffer full. Gap detected! Skipping 5098 to 5101.
+[WARNING] Buffer full. Gap detected! Skipping 5104 to 5107.
+[WARNING] Buffer full. Gap detected! Skipping 5109 to 5109.
+[WARNING] Buffer full. Gap detected! Skipping 5112 to 5114.
+[WARNING] Buffer full. Gap detected! Skipping 5117 to 5118.
+[WARNING] Buffer full. Gap detected! Skipping 5120 to 5125.
+[WARNING] Buffer full. Gap detected! Skipping 5128 to 5129.
+[WARNING] Buffer full. Gap detected! Skipping 5131 to 5131.
+[WARNING] Buffer full. Gap detected! Skipping 5135 to 5135.
+[WARNING] Buffer full. Gap detected! Skipping 5137 to 5141.
+[WARNING] Buffer full. Gap detected! Skipping 5144 to 5144.
+[WARNING] Buffer full. Gap detected! Skipping 5147 to 5150.
+[WARNING] Buffer full. Gap detected! Skipping 5153 to 5153.
+[WARNING] Buffer full. Gap detected! Skipping 5159 to 5159.
+[WARNING] Buffer full. Gap detected! Skipping 5161 to 5161.
+[WARNING] Buffer full. Gap detected! Skipping 5164 to 5165.
+[WARNING] Buffer full. Gap detected! Skipping 5167 to 5168.
+[WARNING] Buffer full. Gap detected! Skipping 5170 to 5174.
+[WARNING] Buffer full. Gap detected! Skipping 5176 to 5176.
+[WARNING] Buffer full. Gap detected! Skipping 5178 to 5183.
+[WARNING] Buffer full. Gap detected! Skipping 5186 to 5187.
+[WARNING] Buffer full. Gap detected! Skipping 5189 to 5192.
+[WARNING] Buffer full. Gap detected! Skipping 5198 to 5198.
+[WARNING] Buffer full. Gap detected! Skipping 5200 to 5204.
+[WARNING] Buffer full. Gap detected! Skipping 5206 to 5208.
+[WARNING] Buffer full. Gap detected! Skipping 5210 to 5210.
+[WARNING] Buffer full. Gap detected! Skipping 5212 to 5212.
+[WARNING] Buffer full. Gap detected! Skipping 5216 to 5219.
+[WARNING] Buffer full. Gap detected! Skipping 5222 to 5223.
+[WARNING] Buffer full. Gap detected! Skipping 5226 to 5226.
+[WARNING] Buffer full. Gap detected! Skipping 5228 to 5230.
+[WARNING] Buffer full. Gap detected! Skipping 5233 to 5236.
+[WARNING] Buffer full. Gap detected! Skipping 5239 to 5241.
+[WARNING] Buffer full. Gap detected! Skipping 5244 to 5245.
+[WARNING] Buffer full. Gap detected! Skipping 5247 to 5248.
+[WARNING] Buffer full. Gap detected! Skipping 5254 to 5254.
+[WARNING] Buffer full. Gap detected! Skipping 5258 to 5260.
+[WARNING] Buffer full. Gap detected! Skipping 5262 to 5263.
+[WARNING] Buffer full. Gap detected! Skipping 5265 to 5265.
+[WARNING] Buffer full. Gap detected! Skipping 5271 to 5272.
+[WARNING] Buffer full. Gap detected! Skipping 5274 to 5274.
+[WARNING] Buffer full. Gap detected! Skipping 5276 to 5276.
+[WARNING] Buffer full. Gap detected! Skipping 5278 to 5281.
+[WARNING] Buffer full. Gap detected! Skipping 5283 to 5284.
+[WARNING] Buffer full. Gap detected! Skipping 5290 to 5290.
+[WARNING] Buffer full. Gap detected! Skipping 5295 to 5295.
+[WARNING] Buffer full. Gap detected! Skipping 5297 to 5297.
+[WARNING] Buffer full. Gap detected! Skipping 5302 to 5302.
+[WARNING] Buffer full. Gap detected! Skipping 5304 to 5307.
+[WARNING] Buffer full. Gap detected! Skipping 5309 to 5309.
+[WARNING] Buffer full. Gap detected! Skipping 5312 to 5312.
+[WARNING] Buffer full. Gap detected! Skipping 5316 to 5316.
+[WARNING] Buffer full. Gap detected! Skipping 5319 to 5319.
+[WARNING] Buffer full. Gap detected! Skipping 5322 to 5322.
+[WARNING] Buffer full. Gap detected! Skipping 5325 to 5326.
+[WARNING] Buffer full. Gap detected! Skipping 5330 to 5331.
+[WARNING] Buffer full. Gap detected! Skipping 5334 to 5337.
+[WARNING] Buffer full. Gap detected! Skipping 5340 to 5341.
+[WARNING] Buffer full. Gap detected! Skipping 5343 to 5345.
+[WARNING] Buffer full. Gap detected! Skipping 5347 to 5348.
+[WARNING] Buffer full. Gap detected! Skipping 5350 to 5350.
+[WARNING] Buffer full. Gap detected! Skipping 5353 to 5353.
+[WARNING] Buffer full. Gap detected! Skipping 5356 to 5358.
+[WARNING] Buffer full. Gap detected! Skipping 5363 to 5363.
+[WARNING] Buffer full. Gap detected! Skipping 5367 to 5369.
+[WARNING] Buffer full. Gap detected! Skipping 5371 to 5371.
+[WARNING] Buffer full. Gap detected! Skipping 5377 to 5377.
+[WARNING] Buffer full. Gap detected! Skipping 5379 to 5379.
+[WARNING] Buffer full. Gap detected! Skipping 5382 to 5382.
+[WARNING] Buffer full. Gap detected! Skipping 5384 to 5384.
+[WARNING] Buffer full. Gap detected! Skipping 5386 to 5391.
+[WARNING] Buffer full. Gap detected! Skipping 5393 to 5394.
+[WARNING] Buffer full. Gap detected! Skipping 5398 to 5399.
+[WARNING] Buffer full. Gap detected! Skipping 5401 to 5401.
+[WARNING] Buffer full. Gap detected! Skipping 5406 to 5407.
+[WARNING] Buffer full. Gap detected! Skipping 5410 to 5413.
+[WARNING] Buffer full. Gap detected! Skipping 5416 to 5417.
+[WARNING] Buffer full. Gap detected! Skipping 5419 to 5419.
+[WARNING] Buffer full. Gap detected! Skipping 5421 to 5421.
+[WARNING] Buffer full. Gap detected! Skipping 5423 to 5424.
+[WARNING] Buffer full. Gap detected! Skipping 5428 to 5429.
+[WARNING] Buffer full. Gap detected! Skipping 5432 to 5432.
+[WARNING] Buffer full. Gap detected! Skipping 5434 to 5434.
+[WARNING] Buffer full. Gap detected! Skipping 5436 to 5436.
+[WARNING] Buffer full. Gap detected! Skipping 5438 to 5439.
+[WARNING] Buffer full. Gap detected! Skipping 5443 to 5444.
+[WARNING] Buffer full. Gap detected! Skipping 5447 to 5447.
+[WARNING] Buffer full. Gap detected! Skipping 5449 to 5451.
+[WARNING] Buffer full. Gap detected! Skipping 5454 to 5454.
+[WARNING] Buffer full. Gap detected! Skipping 5457 to 5457.
+[WARNING] Buffer full. Gap detected! Skipping 5460 to 5465.
+[WARNING] Buffer full. Gap detected! Skipping 5468 to 5468.
+[WARNING] Buffer full. Gap detected! Skipping 5473 to 5475.
+[WARNING] Buffer full. Gap detected! Skipping 5477 to 5478.
+[WARNING] Buffer full. Gap detected! Skipping 5481 to 5483.
+[WARNING] Buffer full. Gap detected! Skipping 5485 to 5486.
+[WARNING] Buffer full. Gap detected! Skipping 5492 to 5492.
+[WARNING] Buffer full. Gap detected! Skipping 5495 to 5495.
+[WARNING] Buffer full. Gap detected! Skipping 5497 to 5497.
+[WARNING] Buffer full. Gap detected! Skipping 5500 to 5500.
+[WARNING] Buffer full. Gap detected! Skipping 5502 to 5503.
+[WARNING] Buffer full. Gap detected! Skipping 5505 to 5505.
+[WARNING] Buffer full. Gap detected! Skipping 5508 to 5509.
+[WARNING] Buffer full. Gap detected! Skipping 5514 to 5514.
+[WARNING] Buffer full. Gap detected! Skipping 5519 to 5519.
+[WARNING] Buffer full. Gap detected! Skipping 5521 to 5521.
+[WARNING] Buffer full. Gap detected! Skipping 5523 to 5524.
+[WARNING] Buffer full. Gap detected! Skipping 5527 to 5530.
+[WARNING] Buffer full. Gap detected! Skipping 5532 to 5532.
+[WARNING] Buffer full. Gap detected! Skipping 5536 to 5540.
+[WARNING] Buffer full. Gap detected! Skipping 5543 to 5545.
+[WARNING] Buffer full. Gap detected! Skipping 5547 to 5547.
+[WARNING] Buffer full. Gap detected! Skipping 5550 to 5550.
+[WARNING] Buffer full. Gap detected! Skipping 5552 to 5552.
+[WARNING] Buffer full. Gap detected! Skipping 5555 to 5555.
+[WARNING] Buffer full. Gap detected! Skipping 5557 to 5557.
+[WARNING] Buffer full. Gap detected! Skipping 5560 to 5560.
+[WARNING] Buffer full. Gap detected! Skipping 5562 to 5563.
+[WARNING] Buffer full. Gap detected! Skipping 5567 to 5570.
+[WARNING] Buffer full. Gap detected! Skipping 5572 to 5577.
+[WARNING] Buffer full. Gap detected! Skipping 5581 to 5581.
+[WARNING] Buffer full. Gap detected! Skipping 5583 to 5583.
+[WARNING] Buffer full. Gap detected! Skipping 5586 to 5586.
+[WARNING] Buffer full. Gap detected! Skipping 5588 to 5588.
+[WARNING] Buffer full. Gap detected! Skipping 5590 to 5590.
+[WARNING] Buffer full. Gap detected! Skipping 5596 to 5598.
+[WARNING] Buffer full. Gap detected! Skipping 5601 to 5601.
+[WARNING] Buffer full. Gap detected! Skipping 5603 to 5603.
+[WARNING] Buffer full. Gap detected! Skipping 5605 to 5605.
+[WARNING] Buffer full. Gap detected! Skipping 5607 to 5608.
+[WARNING] Buffer full. Gap detected! Skipping 5610 to 5612.
+[WARNING] Buffer full. Gap detected! Skipping 5614 to 5620.
+[WARNING] Buffer full. Gap detected! Skipping 5623 to 5624.
+[WARNING] Buffer full. Gap detected! Skipping 5630 to 5631.
+[WARNING] Buffer full. Gap detected! Skipping 5633 to 5633.
+[WARNING] Buffer full. Gap detected! Skipping 5635 to 5638.
+[WARNING] Buffer full. Gap detected! Skipping 5641 to 5646.
+[WARNING] Buffer full. Gap detected! Skipping 5648 to 5649.
+[WARNING] Buffer full. Gap detected! Skipping 5651 to 5652.
+[WARNING] Buffer full. Gap detected! Skipping 5654 to 5654.
+[WARNING] Buffer full. Gap detected! Skipping 5656 to 5662.
+[WARNING] Buffer full. Gap detected! Skipping 5666 to 5666.
+[WARNING] Buffer full. Gap detected! Skipping 5668 to 5668.
+[WARNING] Buffer full. Gap detected! Skipping 5671 to 5671.
+[WARNING] Buffer full. Gap detected! Skipping 5673 to 5673.
+[WARNING] Buffer full. Gap detected! Skipping 5676 to 5676.
+[WARNING] Buffer full. Gap detected! Skipping 5678 to 5678.
+[WARNING] Buffer full. Gap detected! Skipping 5680 to 5680.
+[WARNING] Buffer full. Gap detected! Skipping 5682 to 5682.
+[WARNING] Buffer full. Gap detected! Skipping 5684 to 5684.
+[WARNING] Buffer full. Gap detected! Skipping 5686 to 5687.
+[WARNING] Buffer full. Gap detected! Skipping 5689 to 5691.
+[WARNING] Buffer full. Gap detected! Skipping 5693 to 5693.
+[WARNING] Buffer full. Gap detected! Skipping 5695 to 5696.
+[WARNING] Buffer full. Gap detected! Skipping 5698 to 5699.
+[WARNING] Buffer full. Gap detected! Skipping 5702 to 5703.
+[WARNING] Buffer full. Gap detected! Skipping 5707 to 5707.
+[WARNING] Buffer full. Gap detected! Skipping 5709 to 5709.
+[WARNING] Buffer full. Gap detected! Skipping 5711 to 5712.
+[WARNING] Buffer full. Gap detected! Skipping 5714 to 5714.
+[WARNING] Buffer full. Gap detected! Skipping 5717 to 5718.
+[WARNING] Buffer full. Gap detected! Skipping 5724 to 5726.
+[WARNING] Buffer full. Gap detected! Skipping 5728 to 5730.
+[WARNING] Buffer full. Gap detected! Skipping 5732 to 5732.
+[WARNING] Buffer full. Gap detected! Skipping 5735 to 5737.
+[WARNING] Buffer full. Gap detected! Skipping 5739 to 5739.
+[WARNING] Buffer full. Gap detected! Skipping 5741 to 5742.
+[WARNING] Buffer full. Gap detected! Skipping 5744 to 5744.
+[WARNING] Buffer full. Gap detected! Skipping 5746 to 5746.
+[WARNING] Buffer full. Gap detected! Skipping 5748 to 5748.
+[WARNING] Buffer full. Gap detected! Skipping 5750 to 5750.
+[WARNING] Buffer full. Gap detected! Skipping 5755 to 5756.
+[WARNING] Buffer full. Gap detected! Skipping 5758 to 5759.
+[WARNING] Buffer full. Gap detected! Skipping 5763 to 5770.
+[WARNING] Buffer full. Gap detected! Skipping 5772 to 5772.
+[WARNING] Buffer full. Gap detected! Skipping 5775 to 5775.
+[WARNING] Buffer full. Gap detected! Skipping 5779 to 5780.
+[WARNING] Buffer full. Gap detected! Skipping 5786 to 5787.
+[WARNING] Buffer full. Gap detected! Skipping 5794 to 5794.
+[WARNING] Buffer full. Gap detected! Skipping 5796 to 5797.
+[WARNING] Buffer full. Gap detected! Skipping 5800 to 5801.
+[WARNING] Buffer full. Gap detected! Skipping 5803 to 5804.
+[WARNING] Buffer full. Gap detected! Skipping 5806 to 5807.
+[WARNING] Buffer full. Gap detected! Skipping 5810 to 5813.
+[WARNING] Buffer full. Gap detected! Skipping 5815 to 5815.
+[WARNING] Buffer full. Gap detected! Skipping 5817 to 5817.
+[WARNING] Buffer full. Gap detected! Skipping 5819 to 5819.
+[WARNING] Buffer full. Gap detected! Skipping 5821 to 5821.
+[WARNING] Buffer full. Gap detected! Skipping 5823 to 5825.
+[WARNING] Buffer full. Gap detected! Skipping 5827 to 5827.
+[WARNING] Buffer full. Gap detected! Skipping 5829 to 5830.
+[WARNING] Buffer full. Gap detected! Skipping 5834 to 5834.
+[WARNING] Buffer full. Gap detected! Skipping 5838 to 5840.
+[WARNING] Buffer full. Gap detected! Skipping 5842 to 5842.
+[WARNING] Buffer full. Gap detected! Skipping 5846 to 5847.
+[WARNING] Buffer full. Gap detected! Skipping 5849 to 5849.
+[WARNING] Buffer full. Gap detected! Skipping 5851 to 5853.
+[WARNING] Buffer full. Gap detected! Skipping 5862 to 5862.
+[WARNING] Buffer full. Gap detected! Skipping 5867 to 5868.
+[WARNING] Buffer full. Gap detected! Skipping 5871 to 5871.
+[WARNING] Buffer full. Gap detected! Skipping 5874 to 5876.
+[WARNING] Buffer full. Gap detected! Skipping 5878 to 5884.
+[WARNING] Buffer full. Gap detected! Skipping 5887 to 5887.
+[WARNING] Buffer full. Gap detected! Skipping 5889 to 5890.
+[WARNING] Buffer full. Gap detected! Skipping 5893 to 5893.
+[WARNING] Buffer full. Gap detected! Skipping 5899 to 5899.
+[WARNING] Buffer full. Gap detected! Skipping 5902 to 5902.
+[WARNING] Buffer full. Gap detected! Skipping 5904 to 5905.
+[WARNING] Buffer full. Gap detected! Skipping 5909 to 5909.
+[WARNING] Buffer full. Gap detected! Skipping 5911 to 5911.
+[WARNING] Buffer full. Gap detected! Skipping 5917 to 5918.
+[WARNING] Buffer full. Gap detected! Skipping 5920 to 5923.
+[WARNING] Buffer full. Gap detected! Skipping 5925 to 5927.
+[WARNING] Buffer full. Gap detected! Skipping 5929 to 5929.
+[WARNING] Buffer full. Gap detected! Skipping 5931 to 5932.
+[WARNING] Buffer full. Gap detected! Skipping 5937 to 5937.
+[WARNING] Buffer full. Gap detected! Skipping 5945 to 5945.
+[WARNING] Buffer full. Gap detected! Skipping 5951 to 5952.
+[WARNING] Buffer full. Gap detected! Skipping 5954 to 5955.
+[WARNING] Buffer full. Gap detected! Skipping 5959 to 5960.
+[WARNING] Buffer full. Gap detected! Skipping 5963 to 5963.
+[WARNING] Buffer full. Gap detected! Skipping 5965 to 5966.
+[WARNING] Buffer full. Gap detected! Skipping 5974 to 5974.
+[WARNING] Buffer full. Gap detected! Skipping 5976 to 5978.
+[WARNING] Buffer full. Gap detected! Skipping 5981 to 5981.
+[WARNING] Buffer full. Gap detected! Skipping 5985 to 5988.
+[WARNING] Buffer full. Gap detected! Skipping 5991 to 5991.
+[WARNING] Buffer full. Gap detected! Skipping 5996 to 5998.
+[WARNING] Buffer full. Gap detected! Skipping 6001 to 6001.
+[WARNING] Buffer full. Gap detected! Skipping 6004 to 6004.
+[WARNING] Buffer full. Gap detected! Skipping 6006 to 6006.
+[WARNING] Buffer full. Gap detected! Skipping 6008 to 6011.
+[WARNING] Buffer full. Gap detected! Skipping 6013 to 6013.
+[WARNING] Buffer full. Gap detected! Skipping 6015 to 6017.
+[WARNING] Buffer full. Gap detected! Skipping 6022 to 6023.
+[WARNING] Buffer full. Gap detected! Skipping 6025 to 6027.
+[WARNING] Buffer full. Gap detected! Skipping 6030 to 6030.
+[WARNING] Buffer full. Gap detected! Skipping 6032 to 6032.
+[WARNING] Buffer full. Gap detected! Skipping 6039 to 6043.
+[WARNING] Buffer full. Gap detected! Skipping 6046 to 6046.
+[WARNING] Buffer full. Gap detected! Skipping 6049 to 6049.
+[WARNING] Buffer full. Gap detected! Skipping 6052 to 6054.
+[WARNING] Buffer full. Gap detected! Skipping 6061 to 6061.
+[WARNING] Buffer full. Gap detected! Skipping 6064 to 6064.
+[WARNING] Buffer full. Gap detected! Skipping 6066 to 6066.
+[WARNING] Buffer full. Gap detected! Skipping 6068 to 6070.
+[WARNING] Buffer full. Gap detected! Skipping 6075 to 6075.
+[WARNING] Buffer full. Gap detected! Skipping 6079 to 6080.
+[WARNING] Buffer full. Gap detected! Skipping 6082 to 6083.
+[WARNING] Buffer full. Gap detected! Skipping 6091 to 6092.
+[WARNING] Buffer full. Gap detected! Skipping 6094 to 6096.
+[WARNING] Buffer full. Gap detected! Skipping 6098 to 6100.
+[WARNING] Buffer full. Gap detected! Skipping 6103 to 6105.
+[WARNING] Buffer full. Gap detected! Skipping 6107 to 6107.
+[WARNING] Buffer full. Gap detected! Skipping 6109 to 6109.
+[WARNING] Buffer full. Gap detected! Skipping 6111 to 6112.
+[WARNING] Buffer full. Gap detected! Skipping 6115 to 6115.
+[WARNING] Buffer full. Gap detected! Skipping 6119 to 6119.
+[WARNING] Buffer full. Gap detected! Skipping 6121 to 6121.
+[WARNING] Buffer full. Gap detected! Skipping 6123 to 6123.
+[WARNING] Buffer full. Gap detected! Skipping 6125 to 6125.
+[WARNING] Buffer full. Gap detected! Skipping 6129 to 6130.
+[WARNING] Buffer full. Gap detected! Skipping 6132 to 6133.
+[WARNING] Buffer full. Gap detected! Skipping 6135 to 6136.
+[WARNING] Buffer full. Gap detected! Skipping 6139 to 6140.
+[WARNING] Buffer full. Gap detected! Skipping 6147 to 6149.
+[WARNING] Buffer full. Gap detected! Skipping 6152 to 6152.
+[WARNING] Buffer full. Gap detected! Skipping 6158 to 6159.
+[WARNING] Buffer full. Gap detected! Skipping 6162 to 6163.
+[WARNING] Buffer full. Gap detected! Skipping 6165 to 6165.
+[WARNING] Buffer full. Gap detected! Skipping 6170 to 6171.
+[WARNING] Buffer full. Gap detected! Skipping 6173 to 6173.
+[WARNING] Buffer full. Gap detected! Skipping 6175 to 6175.
+[WARNING] Buffer full. Gap detected! Skipping 6178 to 6178.
+[WARNING] Buffer full. Gap detected! Skipping 6182 to 6183.
+[WARNING] Buffer full. Gap detected! Skipping 6185 to 6185.
+[WARNING] Buffer full. Gap detected! Skipping 6187 to 6187.
+[WARNING] Buffer full. Gap detected! Skipping 6190 to 6190.
+[WARNING] Buffer full. Gap detected! Skipping 6192 to 6194.
+[WARNING] Buffer full. Gap detected! Skipping 6196 to 6197.
+[WARNING] Buffer full. Gap detected! Skipping 6199 to 6199.
+[WARNING] Buffer full. Gap detected! Skipping 6202 to 6204.
+[WARNING] Buffer full. Gap detected! Skipping 6206 to 6206.
+[WARNING] Buffer full. Gap detected! Skipping 6209 to 6210.
+[WARNING] Buffer full. Gap detected! Skipping 6214 to 6214.
+[WARNING] Buffer full. Gap detected! Skipping 6216 to 6216.
+[WARNING] Buffer full. Gap detected! Skipping 6218 to 6221.
+[WARNING] Buffer full. Gap detected! Skipping 6223 to 6223.
+[WARNING] Buffer full. Gap detected! Skipping 6225 to 6225.
+[WARNING] Buffer full. Gap detected! Skipping 6228 to 6228.
+[WARNING] Buffer full. Gap detected! Skipping 6231 to 6231.
+[WARNING] Buffer full. Gap detected! Skipping 6233 to 6236.
+[WARNING] Buffer full. Gap detected! Skipping 6238 to 6239.
+[WARNING] Buffer full. Gap detected! Skipping 6241 to 6241.
+[WARNING] Buffer full. Gap detected! Skipping 6244 to 6244.
+[WARNING] Buffer full. Gap detected! Skipping 6246 to 6246.
+[WARNING] Buffer full. Gap detected! Skipping 6248 to 6249.
+[WARNING] Buffer full. Gap detected! Skipping 6252 to 6254.
+[WARNING] Buffer full. Gap detected! Skipping 6256 to 6257.
+[WARNING] Buffer full. Gap detected! Skipping 6260 to 6261.
+[WARNING] Buffer full. Gap detected! Skipping 6263 to 6264.
+[WARNING] Buffer full. Gap detected! Skipping 6266 to 6266.
+[WARNING] Buffer full. Gap detected! Skipping 6269 to 6271.
+[WARNING] Buffer full. Gap detected! Skipping 6273 to 6273.
+[WARNING] Buffer full. Gap detected! Skipping 6275 to 6275.
+[WARNING] Buffer full. Gap detected! Skipping 6278 to 6278.
+[WARNING] Buffer full. Gap detected! Skipping 6280 to 6280.
+[WARNING] Buffer full. Gap detected! Skipping 6282 to 6282.
+[WARNING] Buffer full. Gap detected! Skipping 6284 to 6287.
+[WARNING] Buffer full. Gap detected! Skipping 6289 to 6290.
+[WARNING] Buffer full. Gap detected! Skipping 6292 to 6292.
+[WARNING] Buffer full. Gap detected! Skipping 6297 to 6297.
+[WARNING] Buffer full. Gap detected! Skipping 6301 to 6302.
+[WARNING] Buffer full. Gap detected! Skipping 6304 to 6304.
+[WARNING] Buffer full. Gap detected! Skipping 6306 to 6308.
+[WARNING] Buffer full. Gap detected! Skipping 6310 to 6311.
+[WARNING] Buffer full. Gap detected! Skipping 6316 to 6318.
+[WARNING] Buffer full. Gap detected! Skipping 6320 to 6320.
+[WARNING] Buffer full. Gap detected! Skipping 6325 to 6327.
+[WARNING] Buffer full. Gap detected! Skipping 6329 to 6330.
+[WARNING] Buffer full. Gap detected! Skipping 6335 to 6338.
+[WARNING] Buffer full. Gap detected! Skipping 6340 to 6340.
+[INFO] Ctrl+C received — finalising video…
+[INFO] Video saved — 1469 frames written, 0 frames still in buffer flushed.
+[INFO] Output: output/output_1776002498.mp4
+[INFO] Writing video → output/output_1776004157.mp4  (1280x720 @ 25 fps)
+[INFO] Collector started — Ctrl+C to stop and finalise.
+[INFO] First frame received — id=11467
+[INFO] Ctrl+C received — finalising video…
+[INFO] Done — 7 frames written total.
+[INFO] Output: output/output_1776004157.mp4
+[INFO] Writing video → output/output_1776004349.mp4  (1280x720 @ 25 fps)
+[INFO] Collector started — Ctrl+C to stop and finalise.
+[INFO] First frame received — id=1426
+[INFO] Ctrl+C received — finalising video…
+[INFO] Done — 379 frames written total.
+[INFO] Output: output/output_1776004349.mp4
+[INFO] Writing video → output/output_1776005094.mp4  (1280x720 @ 25 fps)
+[INFO] Collector started — Ctrl+C to stop and finalise.
+[INFO] First frame received — id=3204
+[INFO] Ctrl+C received — finalising video…
+[INFO] Done — 3057 frames written total.
+[INFO] Output: output/output_1776005094.mp4

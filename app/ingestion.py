@@ -8,6 +8,12 @@ File mode (loops the video forever — default):
 
 RTSP mode:
     python ingestion.py --rtsp rtsp://127.0.0.1:8554/live
+
+Key fix vs previous version:
+  Frame pacing now uses an absolute *deadline* clock instead of
+  `time.sleep(1/FPS)`.  The old approach accumulated drift because it ignored
+  the time spent inside _publish().  Over thousands of frames this caused
+  irregular inter-frame gaps that appeared as jitter in the output video.
 """
 
 import argparse
@@ -58,6 +64,8 @@ def _make_producer() -> Producer:
         "linger.ms":                    5,
         "compression.type":             "snappy",
         "queue.buffering.max.messages": 100_000,
+        # Larger send buffer reduces per-frame syscall overhead
+        "socket.send.buffer.bytes":     1_048_576,
     })
 
 
@@ -80,13 +88,38 @@ def _publish(producer: Producer, frame, frame_id: int) -> None:
         producer.poll(0.1)
 
 
+# ── Deadline-based pacer ──────────────────────────────────────────────────────
+class _Pacer:
+    """Maintains a fixed-rate deadline clock.
+
+    Unlike `time.sleep(interval)`, this accumulates *absolute* deadlines so
+    that time spent inside _publish() is automatically subtracted from the
+    next sleep — eliminating drift over long runs.
+    """
+    def __init__(self, fps: float):
+        self._interval = 1.0 / fps
+        self._next     = time.monotonic()
+
+    def wait(self) -> None:
+        self._next += self._interval
+        remaining = self._next - time.monotonic()
+        if remaining > 0:
+            time.sleep(remaining)
+        else:
+            # We're behind schedule — don't sleep, but don't let the deficit
+            # accumulate unboundedly (e.g. after a long startup stall).
+            if remaining < -self._interval * 10:
+                self._next = time.monotonic()
+
+
 # ── Ingestion modes ───────────────────────────────────────────────────────────
-def ingest_file(video_path: str) -> None:
-    """Loop a local video file indefinitely at TARGET_FPS."""
+def ingest_file(video_path: str, fps: int) -> None:
+    """Loop a local video file indefinitely at *fps*."""
     producer = _make_producer()
+    pacer    = _Pacer(fps)
     frame_id = 0
-    loop = 0
-    log.info("Ingesting '%s' → Kafka (looping at %d fps).", video_path, TARGET_FPS)
+    loop     = 0
+    log.info("Ingesting '%s' → Kafka (looping at %d fps).", video_path, fps)
     try:
         while not _SHUTDOWN:
             cap = cv2.VideoCapture(video_path)
@@ -101,20 +134,19 @@ def ingest_file(video_path: str) -> None:
                     break
                 _publish(producer, frame, frame_id)
                 frame_id += 1
-                time.sleep(1 / TARGET_FPS)
+                pacer.wait()        # ← deadline-based, not naive sleep
             cap.release()
     finally:
         producer.flush()
         log.info("Done — %d frames sent.", frame_id)
 
 
-def ingest_rtsp(rtsp_url: str) -> None:
+def ingest_rtsp(rtsp_url: str, fps: int) -> None:
     """Attach to an RTSP stream and publish frames until stopped."""
-    # Force OpenCV's FFmpeg backend to use TCP — MediaMTX serves over TCP,
-    # and the default UDP transport causes cap.read() to block forever.
     os.environ["OPENCV_FFMPEG_CAPTURE_OPTIONS"] = "rtsp_transport;tcp"
 
     producer = _make_producer()
+    pacer    = _Pacer(fps)
     frame_id = 0
     log.info("Connecting to RTSP: %s", rtsp_url)
     try:
@@ -132,6 +164,7 @@ def ingest_rtsp(rtsp_url: str) -> None:
                     break
                 _publish(producer, frame, frame_id)
                 frame_id += 1
+                pacer.wait()        # ← deadline-based
             cap.release()
     finally:
         producer.flush()
@@ -141,6 +174,8 @@ def ingest_rtsp(rtsp_url: str) -> None:
 # ── Entry-point ───────────────────────────────────────────────────────────────
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Kafka video ingestion.")
+    parser.add_argument("--fps", type=int, default=TARGET_FPS,
+                        help=f"Target publish rate (default: {TARGET_FPS}).")
     group = parser.add_mutually_exclusive_group()
     group.add_argument("--rtsp",  metavar="URL",  default=None,
                        help="RTSP stream URL.")
@@ -149,9 +184,9 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     if args.rtsp:
-        ingest_rtsp(args.rtsp)
+        ingest_rtsp(args.rtsp, args.fps)
     else:
         if not os.path.isfile(args.video):
             log.error("Video file not found: %s", args.video)
             sys.exit(1)
-        ingest_file(args.video)
+        ingest_file(args.video, args.fps)
