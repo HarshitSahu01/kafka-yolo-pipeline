@@ -41,3 +41,11 @@
 [WARNING] Stream unavailable — retrying in 2 s.
 [INFO] Shutting down ingestion…
 [INFO] Done — 4908 frames sent.
+[INFO] Connecting to RTSP: rtsp://localhost:8554/live
+[INFO] Stream opened — reading frames.
+[WARNING] Frame read failed — reconnecting.
+[WARNING] Stream unavailable — retrying in 2 s.
+[WARNING] Stream unavailable — retrying in 2 s.
+[WARNING] Stream unavailable — retrying in 2 s.
+[INFO] Shutting down ingestion…
+[INFO] Done — 1953 frames sent.

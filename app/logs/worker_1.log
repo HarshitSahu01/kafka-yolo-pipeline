@@ -13,3 +13,12 @@
 [INFO] Worker 1 done.
 [INFO] YOLO loaded. conf=0.35  batch=4
 [INFO] Worker 1 pipeline running (3 stages, batch=4).
+[INFO] Worker 1 — shutdown signal.
+[INFO] Worker 1 draining pipeline…
+[INFO] Worker 1 done.
+[INFO] YOLO loaded. conf=0.35  batch=4
+[INFO] Worker 1 pipeline running (3 stages, batch=4).
+[INFO] Worker 1 — shutdown signal.
+[INFO] Worker 1 draining pipeline…
+[INFO] Worker 1 — shutdown signal.
+[INFO] Worker 1 done.
