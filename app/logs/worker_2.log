@@ -113,3 +113,98 @@
 [INFO] Worker 2 — shutdown signal.
 [INFO] Worker 2 draining pipeline…
 [INFO] Worker 2 done.
+[INFO] Worker 2 — GPU: NVIDIA GeForce RTX 3050 A Laptop GPU
+[INFO] Worker 2 — YOLO loaded on cuda. conf=0.35  batch=16
+[INFO] Worker 2 pipeline running (3 stages, device=cuda, batch=16).
+[INFO] Worker 2 — FPS: 0.0
+[INFO] Worker 2 — FPS: 0.0
+[INFO] Worker 2 — FPS: 0.0
+[INFO] Worker 2 — FPS: 0.0
+[INFO] Worker 2 — FPS: 0.0
+[INFO] Worker 2 — FPS: 0.0
+[INFO] Worker 2 — FPS: 0.0
+[INFO] Worker 2 — FPS: 0.0
+[INFO] Worker 2 — FPS: 0.0
+[INFO] Worker 2 — FPS: 0.0
+[INFO] Worker 2 — FPS: 0.0
+[INFO] Worker 2 — FPS: 0.0
+[INFO] Worker 2 — FPS: 0.0
+[INFO] Worker 2 — FPS: 0.0
+[INFO] Worker 2 — FPS: 0.0
+[INFO] Worker 2 — FPS: 0.0
+[INFO] Worker 2 — FPS: 0.0
+[INFO] Worker 2 — FPS: 0.0
+[INFO] Worker 2 — FPS: 0.0
+[INFO] Worker 2 — FPS: 0.0
+[INFO] Worker 2 — FPS: 0.0
+[INFO] Worker 2 — FPS: 0.0
+[INFO] Worker 2 — FPS: 0.0
+[INFO] Worker 2 — FPS: 0.0
+[INFO] Worker 2 — FPS: 0.0
+[INFO] Worker 2 — FPS: 0.0
+[INFO] Worker 2 — FPS: 0.0
+[INFO] Worker 2 — FPS: 0.0
+[INFO] Worker 2 — FPS: 0.0
+[INFO] Worker 2 — FPS: 0.0
+[INFO] Worker 2 — FPS: 0.0
+[INFO] Worker 2 — FPS: 0.0
+[INFO] Worker 2 — FPS: 0.0
+[INFO] Worker 2 — FPS: 9.0
+[INFO] Worker 2 — FPS: 8.0
+[INFO] Worker 2 — FPS: 7.4
+[INFO] Worker 2 — FPS: 7.0
+[INFO] Worker 2 — FPS: 8.1
+[INFO] Worker 2 — FPS: 8.5
+[INFO] Worker 2 — FPS: 7.9
+[INFO] Worker 2 — FPS: 7.2
+[INFO] Worker 2 — FPS: 6.8
+[INFO] Worker 2 — FPS: 6.4
+[INFO] Worker 2 — shutdown signal.
+[INFO] Worker 2 — shutdown signal.
+[INFO] Worker 2 draining pipeline…
+[INFO] Worker 2 — shutdown signal.
+[INFO] Worker 2 done.
+[INFO] Worker 2 — GPU: NVIDIA GeForce RTX 3050 A Laptop GPU
+[INFO] Worker 2 — YOLO loaded on cuda. conf=0.35  batch=16
+[INFO] Worker 2 pipeline running (3 stages, device=cuda, batch=16).
+[INFO] Worker 2 — FPS: 0.0
+[INFO] Worker 2 — FPS: 0.0
+[INFO] Worker 2 — FPS: 0.0
+[INFO] Worker 2 — FPS: 3.8
+[INFO] Worker 2 — FPS: 7.3
+[INFO] Worker 2 — FPS: 7.1
+[INFO] Worker 2 — FPS: 7.9
+[INFO] Worker 2 — FPS: 7.2
+[INFO] Worker 2 — FPS: 6.5
+[INFO] Worker 2 — FPS: 5.9
+[INFO] Worker 2 — FPS: 5.9
+[INFO] Worker 2 — FPS: 5.9
+[INFO] Worker 2 — FPS: 5.9
+[INFO] Worker 2 — FPS: 5.9
+[INFO] Worker 2 — FPS: 5.9
+[INFO] Worker 2 — FPS: 5.9
+[INFO] Worker 2 — FPS: 5.9
+[INFO] Worker 2 — FPS: 5.9
+[INFO] Worker 2 — FPS: 5.9
+[INFO] Worker 2 — FPS: 5.9
+[INFO] Worker 2 — FPS: 5.9
+[INFO] Worker 2 — FPS: 5.9
+[INFO] Worker 2 — FPS: 5.9
+[INFO] Worker 2 — FPS: 5.9
+[INFO] Worker 2 — FPS: 5.9
+[INFO] Worker 2 — FPS: 5.9
+[INFO] Worker 2 — FPS: 5.9
+[INFO] Worker 2 — FPS: 5.9
+[INFO] Worker 2 — FPS: 5.9
+[INFO] Worker 2 — FPS: 5.9
+[INFO] Worker 2 — FPS: 5.9
+[INFO] Worker 2 — FPS: 5.9
+[INFO] Worker 2 — FPS: 5.9
+[INFO] Worker 2 — FPS: 5.9
+[INFO] Worker 2 — FPS: 5.9
+[INFO] Worker 2 — FPS: 5.9
+[INFO] Worker 2 — FPS: 5.9
+[INFO] Worker 2 — FPS: 5.9
+[INFO] Worker 2 — shutdown signal.
+[INFO] Worker 2 draining pipeline…
+[INFO] Worker 2 done.

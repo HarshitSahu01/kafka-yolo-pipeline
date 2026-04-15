@@ -102,3 +102,31 @@
 [INFO] Shutting down ingestion…
 [INFO] Done — 955 frames sent.
 [INFO] Done — 955 frames sent.
+[INFO] Connecting to RTSP: rtsp://localhost:8554/live
+[WARNING] Stream unavailable — retrying in 2 s.
+[WARNING] Stream unavailable — retrying in 2 s.
+[WARNING] Stream unavailable — retrying in 2 s.
+[WARNING] Stream unavailable — retrying in 2 s.
+[WARNING] Stream unavailable — retrying in 2 s.
+[WARNING] Stream unavailable — retrying in 2 s.
+[WARNING] Stream unavailable — retrying in 2 s.
+[WARNING] Stream unavailable — retrying in 2 s.
+[WARNING] Stream unavailable — retrying in 2 s.
+[WARNING] Stream unavailable — retrying in 2 s.
+[WARNING] Stream unavailable — retrying in 2 s.
+[WARNING] Stream unavailable — retrying in 2 s.
+[WARNING] Stream unavailable — retrying in 2 s.
+[WARNING] Stream unavailable — retrying in 2 s.
+[WARNING] Stream unavailable — retrying in 2 s.
+[WARNING] Stream unavailable — retrying in 2 s.
+[INFO] Stream opened — reading frames.
+[WARNING] Frame read failed — reconnecting.
+[WARNING] Stream unavailable — retrying in 2 s.
+[WARNING] Stream unavailable — retrying in 2 s.
+[WARNING] Stream unavailable — retrying in 2 s.
+[INFO] Shutting down ingestion…
+[INFO] Done — 1573 frames sent.
+[INFO] Connecting to RTSP: rtsp://localhost:8554/live
+[INFO] Stream opened — reading frames.
+[INFO] Shutting down ingestion…
+[INFO] Done — 923 frames sent.

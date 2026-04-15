@@ -1683,3 +1683,9 @@
 [INFO] Done — 955 frames written total.
 [INFO] Output: output/output_1776234940.mp4
 [INFO] Output: output/output_1776234940.mp4
+[INFO] Writing video → /home/moli/projects/bda_project/kafka-yolo-pipeline/output/output_1776246125.mp4  (1280x720 @ 25 fps)
+[INFO] Collector started — Ctrl+C to stop and finalise.
+[INFO] First frame received — id=1
+[INFO] Ctrl+C received — finalising video…
+[INFO] Done — 922 frames written total.
+[INFO] Output: /home/moli/projects/bda_project/kafka-yolo-pipeline/output/output_1776246125.mp4
