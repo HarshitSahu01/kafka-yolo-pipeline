@@ -22,3 +22,105 @@
 [INFO] Worker 0 draining pipeline…
 [INFO] Worker 0 — shutdown signal.
 [INFO] Worker 0 done.
+[INFO] Worker 0 — GPU: NVIDIA GeForce RTX 3050 A Laptop GPU
+[INFO] Worker 0 — YOLO loaded on cuda. conf=0.35  batch=16
+[INFO] Worker 0 pipeline running (3 stages, device=cuda, batch=16).
+[INFO] Worker 0 — FPS: 0.8
+[INFO] Worker 0 — FPS: 1.5
+[INFO] Worker 0 — FPS: 1.5
+[INFO] Worker 0 — FPS: 1.5
+[INFO] Worker 0 — FPS: 1.5
+[INFO] Worker 0 — FPS: 1.5
+[INFO] Worker 0 — FPS: 1.5
+[INFO] Worker 0 — FPS: 1.5
+[INFO] Worker 0 — FPS: 1.5
+[INFO] Worker 0 — shutdown signal.
+[INFO] Worker 0 draining pipeline…
+[INFO] Worker 0 done.
+[INFO] Worker 0 — GPU: NVIDIA GeForce RTX 3050 A Laptop GPU
+[INFO] Worker 0 — YOLO loaded on cuda. conf=0.35  batch=16
+[INFO] Worker 0 pipeline running (3 stages, device=cuda, batch=16).
+[INFO] Worker 0 — FPS: 2.1
+[INFO] Worker 0 — FPS: 5.5
+[INFO] Worker 0 — FPS: 6.6
+[INFO] Worker 0 — FPS: 6.9
+[INFO] Worker 0 — FPS: 7.1
+[INFO] Worker 0 — FPS: 8.5
+[INFO] Worker 0 — FPS: 7.9
+[INFO] Worker 0 — FPS: 7.7
+[INFO] Worker 0 — FPS: 6.9
+[INFO] Worker 0 — FPS: 6.8
+[INFO] Worker 0 — FPS: 7.2
+[INFO] Worker 0 — FPS: 7.7
+[INFO] Worker 0 — FPS: 7.3
+[INFO] Worker 0 — FPS: 7.5
+[INFO] Worker 0 — FPS: 6.7
+[INFO] Worker 0 — FPS: 18.6
+[INFO] Worker 0 — FPS: 21.0
+[INFO] Worker 0 — FPS: 16.7
+[INFO] Worker 0 — FPS: 22.8
+[INFO] Worker 0 — FPS: 17.3
+[INFO] Worker 0 — FPS: 17.9
+[INFO] Worker 0 — FPS: 15.8
+[INFO] Worker 0 — FPS: 17.3
+[INFO] Worker 0 — FPS: 15.2
+[INFO] Worker 0 — FPS: 15.1
+[INFO] Worker 0 — FPS: 16.7
+[INFO] Worker 0 — FPS: 18.7
+[INFO] Worker 0 — shutdown signal.
+[INFO] Worker 0 — shutdown signal.
+[INFO] Worker 0 draining pipeline…
+[INFO] Worker 0 done.
+[INFO] Worker 0 — GPU: NVIDIA GeForce RTX 3050 A Laptop GPU
+[INFO] Worker 0 — YOLO loaded on cuda. conf=0.35  batch=16
+[INFO] Worker 0 pipeline running (3 stages, device=cuda, batch=16).
+[INFO] Worker 0 — FPS: 0.0
+[INFO] Worker 0 — FPS: 0.0
+[INFO] Worker 0 — FPS: 0.0
+[INFO] Worker 0 — FPS: 0.0
+[INFO] Worker 0 — FPS: 0.0
+[INFO] Worker 0 — FPS: 0.0
+[INFO] Worker 0 — FPS: 0.0
+[INFO] Worker 0 — FPS: 0.0
+[INFO] Worker 0 — FPS: 0.0
+[INFO] Worker 0 — FPS: 0.0
+[INFO] Worker 0 — FPS: 0.0
+[INFO] Worker 0 — FPS: 0.0
+[INFO] Worker 0 — FPS: 0.0
+[INFO] Worker 0 — FPS: 0.0
+[INFO] Worker 0 — FPS: 0.0
+[INFO] Worker 0 — FPS: 5.4
+[INFO] Worker 0 — FPS: 6.3
+[INFO] Worker 0 — FPS: 6.9
+[INFO] Worker 0 — FPS: 7.4
+[INFO] Worker 0 — FPS: 7.0
+[INFO] Worker 0 — FPS: 6.8
+[INFO] Worker 0 — FPS: 6.8
+[INFO] Worker 0 — FPS: 6.8
+[INFO] Worker 0 — FPS: 6.8
+[INFO] Worker 0 — FPS: 6.8
+[INFO] Worker 0 — FPS: 6.8
+[INFO] Worker 0 — FPS: 6.8
+[INFO] Worker 0 — FPS: 6.8
+[INFO] Worker 0 — FPS: 6.8
+[INFO] Worker 0 — FPS: 6.8
+[INFO] Worker 0 — FPS: 6.8
+[INFO] Worker 0 — FPS: 6.8
+[INFO] Worker 0 — FPS: 6.8
+[INFO] Worker 0 — FPS: 6.8
+[INFO] Worker 0 — FPS: 6.8
+[INFO] Worker 0 — FPS: 6.8
+[INFO] Worker 0 — FPS: 6.8
+[INFO] Worker 0 — FPS: 6.8
+[INFO] Worker 0 — FPS: 6.8
+[INFO] Worker 0 — FPS: 6.8
+[INFO] Worker 0 — FPS: 6.8
+[INFO] Worker 0 — FPS: 6.8
+[INFO] Worker 0 — FPS: 6.8
+[INFO] Worker 0 — FPS: 6.8
+[INFO] Worker 0 — FPS: 6.8
+[INFO] Worker 0 — FPS: 6.8
+[INFO] Worker 0 — shutdown signal.
+[INFO] Worker 0 — shutdown signal.
+[INFO] Worker 0 draining pipeline…
+[INFO] Worker 0 done.

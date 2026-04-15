@@ -1,1 +1,103 @@
 [INFO] Worker 3 ready (annotation mode).
+[INFO] Worker 3 — GPU: NVIDIA GeForce RTX 3050 A Laptop GPU
+[INFO] Worker 3 — YOLO loaded on cuda. conf=0.35  batch=16
+[INFO] Worker 3 pipeline running (3 stages, device=cuda, batch=16).
+[INFO] Worker 3 — FPS: 0.6
+[INFO] Worker 3 — FPS: 0.6
+[INFO] Worker 3 — FPS: 0.6
+[INFO] Worker 3 — FPS: 0.6
+[INFO] Worker 3 — FPS: 0.6
+[INFO] Worker 3 — FPS: 0.6
+[INFO] Worker 3 — FPS: 0.6
+[INFO] Worker 3 — FPS: 0.6
+[INFO] Worker 3 — FPS: 0.6
+[INFO] Worker 3 — shutdown signal.
+[INFO] Worker 3 draining pipeline…
+[INFO] Worker 3 done.
+[INFO] Worker 3 — GPU: NVIDIA GeForce RTX 3050 A Laptop GPU
+[INFO] Worker 3 — YOLO loaded on cuda. conf=0.35  batch=16
+[INFO] Worker 3 pipeline running (3 stages, device=cuda, batch=16).
+[INFO] Worker 3 — FPS: 3.7
+[INFO] Worker 3 — FPS: 6.5
+[INFO] Worker 3 — FPS: 6.5
+[INFO] Worker 3 — FPS: 7.1
+[INFO] Worker 3 — FPS: 7.6
+[INFO] Worker 3 — FPS: 7.6
+[INFO] Worker 3 — FPS: 7.0
+[INFO] Worker 3 — FPS: 7.3
+[INFO] Worker 3 — FPS: 7.6
+[INFO] Worker 3 — FPS: 7.5
+[INFO] Worker 3 — FPS: 7.6
+[INFO] Worker 3 — FPS: 7.5
+[INFO] Worker 3 — FPS: 7.5
+[INFO] Worker 3 — FPS: 7.1
+[INFO] Worker 3 — FPS: 6.8
+[INFO] Worker 3 — FPS: 21.3
+[INFO] Worker 3 — FPS: 18.3
+[INFO] Worker 3 — FPS: 20.6
+[INFO] Worker 3 — FPS: 16.7
+[INFO] Worker 3 — FPS: 18.4
+[INFO] Worker 3 — FPS: 19.8
+[INFO] Worker 3 — FPS: 24.2
+[INFO] Worker 3 — FPS: 16.5
+[INFO] Worker 3 — FPS: 17.4
+[INFO] Worker 3 — FPS: 19.3
+[INFO] Worker 3 — FPS: 16.6
+[INFO] Worker 3 — FPS: 19.1
+[INFO] Worker 3 — shutdown signal.
+[INFO] Worker 3 — shutdown signal.
+[INFO] Worker 3 draining pipeline…
+[INFO] Worker 3 done.
+[INFO] Worker 3 — GPU: NVIDIA GeForce RTX 3050 A Laptop GPU
+[INFO] Worker 3 — YOLO loaded on cuda. conf=0.35  batch=16
+[INFO] Worker 3 pipeline running (3 stages, device=cuda, batch=16).
+[INFO] Worker 3 — FPS: 0.0
+[INFO] Worker 3 — FPS: 0.0
+[INFO] Worker 3 — FPS: 0.0
+[INFO] Worker 3 — FPS: 0.0
+[INFO] Worker 3 — FPS: 0.0
+[INFO] Worker 3 — FPS: 0.0
+[INFO] Worker 3 — FPS: 0.0
+[INFO] Worker 3 — FPS: 0.0
+[INFO] Worker 3 — FPS: 0.0
+[INFO] Worker 3 — FPS: 0.0
+[INFO] Worker 3 — FPS: 0.0
+[INFO] Worker 3 — FPS: 0.0
+[INFO] Worker 3 — FPS: 0.0
+[INFO] Worker 3 — FPS: 0.0
+[INFO] Worker 3 — FPS: 0.0
+[INFO] Worker 3 — FPS: 9.1
+[INFO] Worker 3 — FPS: 8.1
+[INFO] Worker 3 — FPS: 7.6
+[INFO] Worker 3 — FPS: 7.9
+[INFO] Worker 3 — FPS: 8.0
+[INFO] Worker 3 — FPS: 8.7
+[INFO] Worker 3 — FPS: 8.7
+[INFO] Worker 3 — FPS: 8.7
+[INFO] Worker 3 — FPS: 8.7
+[INFO] Worker 3 — FPS: 8.7
+[INFO] Worker 3 — FPS: 8.7
+[INFO] Worker 3 — FPS: 8.7
+[INFO] Worker 3 — FPS: 8.7
+[INFO] Worker 3 — FPS: 8.7
+[INFO] Worker 3 — FPS: 8.7
+[INFO] Worker 3 — FPS: 8.7
+[INFO] Worker 3 — FPS: 8.7
+[INFO] Worker 3 — FPS: 8.7
+[INFO] Worker 3 — FPS: 8.7
+[INFO] Worker 3 — FPS: 8.7
+[INFO] Worker 3 — FPS: 8.7
+[INFO] Worker 3 — FPS: 8.7
+[INFO] Worker 3 — FPS: 8.7
+[INFO] Worker 3 — FPS: 8.7
+[INFO] Worker 3 — FPS: 8.7
+[INFO] Worker 3 — FPS: 8.7
+[INFO] Worker 3 — FPS: 8.7
+[INFO] Worker 3 — FPS: 8.7
+[INFO] Worker 3 — FPS: 8.7
+[INFO] Worker 3 — FPS: 8.7
+[INFO] Worker 3 — FPS: 8.7
+[INFO] Worker 3 — shutdown signal.
+[INFO] Worker 3 — shutdown signal.
+[INFO] Worker 3 draining pipeline…
+[INFO] Worker 3 done.

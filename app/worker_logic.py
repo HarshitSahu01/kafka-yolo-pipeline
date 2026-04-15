@@ -11,15 +11,15 @@ Architecture (3 concurrent stages via bounded queues):
 
   • Kafka poll/decode never waits for GPU.
   • YOLO runs on batches of up to INFER_BATCH frames — maximises GPU utilisation.
-  • JPEG encode + Kafka produce never stall the GPU.
+  • JPEG encode + Kafka produce + CSV write happen in the publish thread (I/O only).
   • Bounded queues provide natural back-pressure — no unbounded RAM growth.
+  • NO frame dropping — every frame that arrives is processed.
 
 Tuning (all env-overridable):
   CONF_THRESHOLD      default 0.35   min detection confidence
-  MAX_LATENCY_SEC     default 5.0    drop frames older than this
-  INFER_BATCH         default 4      frames per YOLO call (raise for GPU)
-  DECODE_QUEUE_SIZE   default 16
-  RESULT_QUEUE_SIZE   default 16
+  INFER_BATCH         default 8      frames per YOLO call (raise for GPU)
+  DECODE_QUEUE_SIZE   default 32
+  RESULT_QUEUE_SIZE   default 32
   JPEG_QUALITY        default 85
 """
 
@@ -35,6 +35,7 @@ from collections import deque
 
 import cv2
 import numpy as np
+import torch
 from confluent_kafka import Consumer, Producer
 from ultralytics import YOLO
 
@@ -46,10 +47,9 @@ CONSUMER_GROUP = "yolo-cluster-group"
 YOLO_MODEL     = "yolov8n.pt"
 
 CONF_THRESHOLD    = float(os.getenv("CONF_THRESHOLD",   "0.35"))
-MAX_LATENCY_SEC   = float(os.getenv("MAX_LATENCY_SEC",  "5.0"))
-INFER_BATCH       = int(os.getenv("INFER_BATCH",        "4"))
-DECODE_QUEUE_SIZE = int(os.getenv("DECODE_QUEUE_SIZE",  "16"))
-RESULT_QUEUE_SIZE = int(os.getenv("RESULT_QUEUE_SIZE",  "16"))
+INFER_BATCH       = int(os.getenv("INFER_BATCH",        "16"))   # batch=16 gives peak GPU throughput
+DECODE_QUEUE_SIZE = int(os.getenv("DECODE_QUEUE_SIZE",  "64"))   # large enough to never starve 16-frame batches
+RESULT_QUEUE_SIZE = int(os.getenv("RESULT_QUEUE_SIZE",  "64"))
 JPEG_QUALITY      = int(os.getenv("JPEG_QUALITY",       "85"))
 
 DETECTION_LOG = os.getenv("DETECTION_LOG", "logs/detections.csv")
@@ -75,7 +75,7 @@ _POISON = object()
 
 # ── Thread-safe rolling FPS tracker ──────────────────────────────────────────
 class _FPSTracker:
-    def __init__(self, window: int = 60):
+    def __init__(self, window: int = 90):
         self._times: deque[float] = deque(maxlen=window)
         self._lock = threading.Lock()
 
@@ -102,11 +102,12 @@ def _annotate(
     frame_id: int,
     fps: float,
     latency_ms: float,
-    csv_writer,
-    timestamp_ms: int,
-    wid: str,
-) -> np.ndarray:
+) -> tuple[np.ndarray, list]:
+    """Annotate frame and return (annotated_frame, csv_rows).
+    CSV rows are written in the publish thread to keep infer GPU-bound.
+    """
     class_counts: dict[str, int] = {}
+    csv_rows = []
 
     for box in result.boxes:
         conf = float(box.conf[0])
@@ -128,12 +129,8 @@ def _annotate(
                     cv2.FONT_HERSHEY_SIMPLEX, 0.55, (0, 0, 0), 1, cv2.LINE_AA)
 
         class_counts[label] = class_counts.get(label, 0) + 1
-
-        if csv_writer is not None:
-            csv_writer.writerow([
-                timestamp_ms, wid, frame_id,
-                label, f"{conf:.4f}", x1, y1, x2, y2,
-            ])
+        csv_rows.append([int(time.time() * 1000), None, frame_id,
+                         label, f"{conf:.4f}", x1, y1, x2, y2])
 
     # Object count overlay — top-left
     y_off = 20
@@ -154,22 +151,22 @@ def _annotate(
     cv2.putText(frame, hud, (fx, 20),
                 cv2.FONT_HERSHEY_SIMPLEX, 0.55, (0, 255, 128), 1, cv2.LINE_AA)
 
-    return frame
+    return frame, csv_rows
 
 
 # ── Stage 1 — consume + decode ────────────────────────────────────────────────
 def _stage_consume(
     consumer: Consumer,
     decode_q: queue.Queue,
-    fps_tracker: _FPSTracker,
     shutdown: threading.Event,
     log: logging.Logger,
 ) -> None:
-    """Poll Kafka, JPEG-decode each frame, push (frame_id, ts, frame, msg) to decode_q."""
-    now_ms = lambda: int(time.time() * 1000)
-
+    """Poll Kafka, JPEG-decode each frame, push (frame_id, ts_ms, frame) to decode_q.
+    
+    NO frame dropping — every valid frame is forwarded.
+    """
     while not shutdown.is_set():
-        msg = consumer.poll(0.05)
+        msg = consumer.poll(0.01)   # 10ms timeout — keeps polling tight
         if msg is None or msg.error():
             continue
 
@@ -186,22 +183,14 @@ def _stage_consume(
                 except (ValueError, TypeError):
                     pass
 
-        latency_ms = max(0.0, now_ms() - timestamp_ms)
-        if latency_ms > MAX_LATENCY_SEC * 1000:
-            log.debug("Drop stale frame %d (%.1f s)", frame_id, latency_ms / 1000)
-            consumer.commit(msg)
-            continue
-
+        # Decode JPEG → numpy (CPU, fast)
         arr   = np.frombuffer(msg.value(), dtype=np.uint8)
         frame = cv2.imdecode(arr, cv2.IMREAD_COLOR)
         if frame is None:
-            consumer.commit(msg)
             continue
 
-        fps_tracker.tick()
-
-        # Block here when infer thread is busy — applies back-pressure
-        decode_q.put((frame_id, timestamp_ms, frame, msg))
+        # Block here when infer thread is busy — natural back-pressure
+        decode_q.put((frame_id, timestamp_ms, frame))
 
     decode_q.put(_POISON)
     log.debug("Stage 1 (consume) done.")
@@ -210,11 +199,11 @@ def _stage_consume(
 # ── Stage 2 — batch infer + annotate ─────────────────────────────────────────
 def _stage_infer(
     model: YOLO,
+    infer_device: str,
     decode_q: queue.Queue,
     result_q: queue.Queue,
     fps_tracker: _FPSTracker,
     wid: str,
-    csv_writer,
     shutdown: threading.Event,
     log: logging.Logger,
 ) -> None:
@@ -248,54 +237,46 @@ def _stage_infer(
         # Batch YOLO inference — ultralytics accepts a list of np arrays
         frames = [item[2] for item in batch]
         try:
-            all_results = model(frames, verbose=False)
+            all_results = model(frames, verbose=False, device=infer_device)
         except Exception as exc:
             log.error("Inference error (batch %d): %s", len(batch), exc)
-            for _, _, _, msg in batch:
-                consumer_commit_safe(msg, log)
             continue
 
         fps = fps_tracker.tick()
 
-        for (frame_id, timestamp_ms, frame, msg), result in zip(batch, all_results):
+        for (frame_id, timestamp_ms, frame), result in zip(batch, all_results):
             latency_ms = max(0.0, now_ms() - timestamp_ms)
             try:
-                annotated = _annotate(
+                annotated, csv_rows = _annotate(
                     frame, result,
                     frame_id=frame_id,
                     fps=fps,
                     latency_ms=latency_ms,
-                    csv_writer=csv_writer,
-                    timestamp_ms=timestamp_ms,
-                    wid=wid,
                 )
+                # Stamp worker_id into csv_rows
+                for row in csv_rows:
+                    row[1] = wid
             except Exception as exc:
                 log.error("Annotate error frame %d: %s", frame_id, exc)
-                annotated = frame  # push unannotated rather than drop
+                annotated = frame
+                csv_rows  = []
 
-            result_q.put((frame_id, annotated, msg))
+            result_q.put((frame_id, annotated, csv_rows))
 
     result_q.put(_POISON)
     log.debug("Stage 2 (infer) done.")
 
 
-def consumer_commit_safe(msg, log: logging.Logger) -> None:
-    """Best-effort commit — ignore errors (e.g. consumer already closed)."""
-    try:
-        msg.consumer_obj and None   # noqa: consumer ref not stored here
-    except Exception:
-        pass
-
-
-# ── Stage 3 — encode + publish ────────────────────────────────────────────────
+# ── Stage 3 — encode + publish + CSV write ───────────────────────────────────
 def _stage_publish(
     producer: Producer,
-    result_q: queue.Queue,
     consumer: Consumer,
+    result_q: queue.Queue,
+    csv_writer,
     shutdown: threading.Event,
     log: logging.Logger,
 ) -> None:
-    """JPEG-encode annotated frames and publish to yolo-results."""
+    """JPEG-encode annotated frames, publish to yolo-results, write CSV rows."""
     while True:
         try:
             item = result_q.get(timeout=0.1)
@@ -308,14 +289,19 @@ def _stage_publish(
         if item is _POISON:
             break
 
-        frame_id, annotated, msg = item
+        frame_id, annotated, csv_rows = item
 
+        # Write detections CSV (I/O — fine on this thread)
+        if csv_writer is not None:
+            for row in csv_rows:
+                csv_writer.writerow(row)
+
+        # JPEG encode
         ok, buf = cv2.imencode(
             ".jpg", annotated,
             [int(cv2.IMWRITE_JPEG_QUALITY), JPEG_QUALITY],
         )
         if not ok:
-            consumer.commit(msg)
             continue
 
         headers = [("frame_id", str(frame_id).encode())]
@@ -324,8 +310,6 @@ def _stage_publish(
             producer.poll(0)
         except Exception as exc:
             log.error("Publish error frame %d: %s", frame_id, exc)
-
-        consumer.commit(msg)
 
     log.debug("Stage 3 (publish) done.")
 
@@ -352,34 +336,50 @@ def run_worker(wid: str) -> None:
     signal.signal(signal.SIGINT,  _stop)
     signal.signal(signal.SIGTERM, _stop)
 
+    # ── GPU / device selection ──────────────────────────────────────────────
+    if torch.cuda.is_available():
+        infer_device = "cuda"
+        log.info("Worker %s — GPU: %s", wid, torch.cuda.get_device_name(0))
+    else:
+        infer_device = "cpu"
+        log.warning("Worker %s — CUDA not available, falling back to CPU.", wid)
+
     # ── CSV log ────────────────────────────────────────────────────────────
-    csv_file   = open(DETECTION_LOG, "a", newline="", buffering=1)
+    csv_path = DETECTION_LOG.replace(".csv", f"_{wid}.csv")
+    csv_file   = open(csv_path, "a", newline="", buffering=1)
     csv_writer = csv.writer(csv_file)
-    if os.path.getsize(DETECTION_LOG) == 0:
+    if os.path.getsize(csv_path) == 0:
         csv_writer.writerow(_CSV_HEADER)
 
     # ── YOLO ───────────────────────────────────────────────────────────────
     model = YOLO(YOLO_MODEL)
-    log.info("YOLO loaded. conf=%.2f  batch=%d", CONF_THRESHOLD, INFER_BATCH)
+    # Warm-up: send one dummy frame to initialise CUDA context before real work
+    dummy = np.zeros((640, 640, 3), dtype=np.uint8)
+    model([dummy], verbose=False, device=infer_device)
+    log.info("Worker %s — YOLO loaded on %s. conf=%.2f  batch=%d",
+             wid, infer_device, CONF_THRESHOLD, INFER_BATCH)
 
-    # ── Kafka ──────────────────────────────────────────────────────────────
+    # ── Kafka consumer ─────────────────────────────────────────────────────
     consumer = Consumer({
         "bootstrap.servers":         KAFKA_BROKER,
         "group.id":                  CONSUMER_GROUP,
         "auto.offset.reset":         "earliest",
-        "enable.auto.commit":        False,
+        # Auto-commit every 500 ms — avoids per-frame commit RTT overhead
+        "enable.auto.commit":        True,
+        "auto.commit.interval.ms":   500,
         "max.poll.interval.ms":      300_000,
         "fetch.max.bytes":           20_000_000,
         "max.partition.fetch.bytes": 20_000_000,
-        # Fill fetch buffers quickly so decode_q stays topped up
-        "fetch.min.bytes":           65_536,
-        "fetch.wait.max.ms":         50,
+        # Aggressive fetch — wake up as soon as ANY data is available
+        "fetch.min.bytes":           1,
+        "fetch.wait.max.ms":         5,
     })
     consumer.subscribe([TOPIC_VIDEO])
 
+    # ── Kafka producer ─────────────────────────────────────────────────────
     producer = Producer({
         "bootstrap.servers":            KAFKA_BROKER,
-        "linger.ms":                    5,
+        "linger.ms":                    0,          # no added latency
         "compression.type":             "snappy",
         "message.max.bytes":            10_000_000,
         "queue.buffering.max.messages": 10_000,
@@ -387,7 +387,7 @@ def run_worker(wid: str) -> None:
     })
 
     # ── Queues ─────────────────────────────────────────────────────────────
-    fps_tracker = _FPSTracker(window=60)
+    fps_tracker = _FPSTracker(window=90)
     decode_q: queue.Queue = queue.Queue(maxsize=DECODE_QUEUE_SIZE)
     result_q: queue.Queue = queue.Queue(maxsize=RESULT_QUEUE_SIZE)
 
@@ -395,18 +395,18 @@ def run_worker(wid: str) -> None:
     threads = [
         threading.Thread(
             target=_stage_consume,
-            args=(consumer, decode_q, fps_tracker, shutdown, log),
+            args=(consumer, decode_q, shutdown, log),
             name=f"w{wid}-consume", daemon=True,
         ),
         threading.Thread(
             target=_stage_infer,
-            args=(model, decode_q, result_q, fps_tracker,
-                  wid, csv_writer, shutdown, log),
+            args=(model, infer_device, decode_q, result_q,
+                  fps_tracker, wid, shutdown, log),
             name=f"w{wid}-infer", daemon=True,
         ),
         threading.Thread(
             target=_stage_publish,
-            args=(producer, result_q, consumer, shutdown, log),
+            args=(producer, consumer, result_q, csv_writer, shutdown, log),
             name=f"w{wid}-publish", daemon=True,
         ),
     ]
@@ -414,11 +414,17 @@ def run_worker(wid: str) -> None:
     for t in threads:
         t.start()
 
-    log.info("Worker %s pipeline running (3 stages, batch=%d).", wid, INFER_BATCH)
+    log.info("Worker %s pipeline running (3 stages, device=%s, batch=%d).",
+             wid, infer_device, INFER_BATCH)
 
     try:
+        last_log = time.monotonic()
         while not shutdown.is_set():
             time.sleep(0.5)
+            now = time.monotonic()
+            if now - last_log >= 5.0:
+                log.info("Worker %s — FPS: %.1f", wid, fps_tracker.fps)
+                last_log = now
     except KeyboardInterrupt:
         shutdown.set()
 

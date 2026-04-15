@@ -49,3 +49,48 @@
 [WARNING] Stream unavailable — retrying in 2 s.
 [INFO] Shutting down ingestion…
 [INFO] Done — 1953 frames sent.
+[ERROR] Video file not found: race_car.mp4
+[INFO] Ingesting '/home/moli/projects/bda_project/kafka-yolo-pipeline/streaming/race_car.mp4' → Kafka (looping at 30 fps).
+[INFO] Loop 1.
+[INFO] Loop 2.
+[INFO] Loop 3.
+[INFO] Loop 4.
+[INFO] Loop 5.
+[INFO] Loop 6.
+[INFO] Loop 7.
+[INFO] Loop 8.
+[INFO] Loop 9.
+[INFO] Loop 10.
+[INFO] Loop 11.
+[INFO] Loop 12.
+[INFO] Loop 13.
+[INFO] Shutting down ingestion…
+[INFO] Done — 2718 frames sent.
+[INFO] Ingesting '/home/moli/projects/bda_project/kafka-yolo-pipeline/streaming/race_car.mp4' → Kafka (looping at 120 fps).
+[INFO] Loop 1.
+[INFO] Loop 2.
+[INFO] Loop 3.
+[INFO] Loop 4.
+[INFO] Loop 5.
+[INFO] Loop 6.
+[INFO] Loop 7.
+[INFO] Loop 8.
+[INFO] Loop 9.
+[INFO] Loop 10.
+[INFO] Loop 11.
+[INFO] Loop 12.
+[INFO] Loop 13.
+[INFO] Loop 14.
+[INFO] Loop 15.
+[INFO] Loop 16.
+[INFO] Loop 17.
+[INFO] Loop 18.
+[INFO] Loop 19.
+[INFO] Loop 20.
+[INFO] Loop 21.
+[INFO] Loop 22.
+[INFO] Loop 23.
+[INFO] Loop 24.
+[INFO] Loop 25.
+[INFO] Shutting down ingestion…
+[INFO] Done — 5243 frames sent.
