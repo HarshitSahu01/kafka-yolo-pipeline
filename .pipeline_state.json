@@ -1,0 +1,6 @@
+{
+  "pids": {},
+  "rtsp_url": "rtsp://localhost:8554/live",
+  "n_workers": 4,
+  "start_time": null
+}

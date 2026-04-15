@@ -94,3 +94,11 @@
 [INFO] Loop 25.
 [INFO] Shutting down ingestion…
 [INFO] Done — 5243 frames sent.
+[INFO] Connecting to RTSP: rtsp://localhost:8554/live
+[INFO] Connecting to RTSP: rtsp://localhost:8554/live
+[INFO] Stream opened — reading frames.
+[INFO] Stream opened — reading frames.
+[INFO] Shutting down ingestion…
+[INFO] Shutting down ingestion…
+[INFO] Done — 955 frames sent.
+[INFO] Done — 955 frames sent.

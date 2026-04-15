@@ -1671,3 +1671,15 @@
 [INFO] Ctrl+C received — finalising video…
 [INFO] Done — 151 frames written total.
 [INFO] Output: output/output_1776008348.mp4
+[INFO] Writing video → output/output_1776234940.mp4  (1280x720 @ 25 fps)
+[INFO] Writing video → output/output_1776234940.mp4  (1280x720 @ 25 fps)
+[INFO] Collector started — Ctrl+C to stop and finalise.
+[INFO] Collector started — Ctrl+C to stop and finalise.
+[INFO] First frame received — id=0
+[INFO] First frame received — id=0
+[INFO] Ctrl+C received — finalising video…
+[INFO] Ctrl+C received — finalising video…
+[INFO] Done — 955 frames written total.
+[INFO] Done — 955 frames written total.
+[INFO] Output: output/output_1776234940.mp4
+[INFO] Output: output/output_1776234940.mp4

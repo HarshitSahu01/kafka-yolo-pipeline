@@ -14,10 +14,17 @@ import logging
 import os
 import signal
 import time
+from pathlib import Path
 
 import cv2
 import numpy as np
 from confluent_kafka import Consumer
+
+# ── Absolute paths so the collector works regardless of CWD ───────────────────
+_FILE_DIR    = Path(__file__).resolve().parent          # kafka-yolo-pipeline/app/
+_PROJECT_ROOT = _FILE_DIR.parent                        # kafka-yolo-pipeline/
+_LOGS_DIR    = _FILE_DIR / "logs"
+_OUTPUT_ROOT = _PROJECT_ROOT / "output"
 
 # ── Config ────────────────────────────────────────────────────────────────────
 KAFKA_BROKER   = os.getenv("KAFKA_BROKER", "localhost:9092")
@@ -30,20 +37,20 @@ REORDER_WINDOW = 90    # ~3 s at 30 fps
 # Force-flush the heap when no new messages arrive for this long.
 FLUSH_TIMEOUT  = 1.0   # seconds
 
-OUTPUT_DIR = "output"
+OUTPUT_DIR = str(_OUTPUT_ROOT)   # always absolute → kafka-yolo-pipeline/output/
 OUTPUT_FPS = 25
 OUTPUT_W   = 1280
 OUTPUT_H   = 720
 
 # ── Logging ───────────────────────────────────────────────────────────────────
-os.makedirs("logs",     exist_ok=True)
+os.makedirs(str(_LOGS_DIR),   exist_ok=True)
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 logging.basicConfig(
     level=logging.INFO,
     format="[%(levelname)s] %(message)s",
     handlers=[
         logging.StreamHandler(),
-        logging.FileHandler("logs/collector.log"),
+        logging.FileHandler(str(_LOGS_DIR / "collector.log")),
     ],
 )
 log = logging.getLogger("collector")
